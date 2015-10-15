@@ -13,14 +13,14 @@ import org.openjdk.jmh.annotations.State;
 public class PersonnesContainer extends Benchmarked {
 
     @Param({
-    	"10",
-    	"100",
-    	"1000",
-    	"10000",
-    	"100000",
-    	"200000", 
-    	"400000",
-    	"800000",
+//    	"10",
+//    	"100",
+//    	"1000",
+//    	"10000",
+//    	"100000",
+//    	"200000", 
+//    	"400000",
+//    	"800000",
     	"1000000"
     	})
 	protected int nbPersons;

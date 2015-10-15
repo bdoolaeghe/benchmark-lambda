@@ -68,24 +68,24 @@ public class LambdaVsAnonymousHotBenchmark extends LambdaVsAnonymousBenchmark {
 
 	/* parallel */
 	
-	@Benchmark
-	public void parallel_stream_anonymous_class(PersonnesContainer c, Blackhole blackHole) {
-		super.parallel_stream_anonymous_class(c, blackHole);
-	}
-	
-	@Benchmark
-	public void parallel_stream_lambda(PersonnesContainer c, Blackhole blackHole) {
-		super.parallel_stream_lambda(c, blackHole);
-	}
-	
-	@Benchmark
-	public void parallel_stream_lambda_then(PersonnesContainer c, Blackhole blackHole) {
-		super.parallel_stream_lambda_then(c, blackHole);
-	}
-	
-	@Benchmark
-	public void parallel_stream_method_ref_then(PersonnesContainer c, Blackhole blackHole) {
-		super.parallel_stream_method_ref_then(c, blackHole);
-	}
+//	@Benchmark
+//	public void parallel_stream_anonymous_class(PersonnesContainer c, Blackhole blackHole) {
+//		super.parallel_stream_anonymous_class(c, blackHole);
+//	}
+//	
+//	@Benchmark
+//	public void parallel_stream_lambda(PersonnesContainer c, Blackhole blackHole) {
+//		super.parallel_stream_lambda(c, blackHole);
+//	}
+//	
+//	@Benchmark
+//	public void parallel_stream_lambda_then(PersonnesContainer c, Blackhole blackHole) {
+//		super.parallel_stream_lambda_then(c, blackHole);
+//	}
+//	
+//	@Benchmark
+//	public void parallel_stream_method_ref_then(PersonnesContainer c, Blackhole blackHole) {
+//		super.parallel_stream_method_ref_then(c, blackHole);
+//	}
 	
 }
