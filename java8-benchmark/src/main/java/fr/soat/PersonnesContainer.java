@@ -13,9 +13,9 @@ import org.openjdk.jmh.annotations.State;
 public class PersonnesContainer extends Benchmarked {
 
     @Param({
-//    	"10",
+    	"10",
 //    	"100",
-//    	"1000",
+    	"1000",
 //    	"10000",
 //    	"100000",
 //    	"200000", 
