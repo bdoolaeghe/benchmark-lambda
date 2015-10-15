@@ -1,0 +1,2409 @@
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineColdBenchmark.anonymous_class
+# Parameters: (nbPersons = 10)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,067 ms/op
+
+# Run progress: 0,11% complete, ETA 00:07:34
+# Fork: 2 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,058 ms/op
+
+# Run progress: 0,22% complete, ETA 00:07:05
+# Fork: 3 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,052 ms/op
+
+# Run progress: 0,33% complete, ETA 00:06:54
+# Fork: 4 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,052 ms/op
+
+# Run progress: 0,44% complete, ETA 00:06:46
+# Fork: 5 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 0,56% complete, ETA 00:06:42
+# Fork: 6 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 0,67% complete, ETA 00:06:39
+# Fork: 7 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,080 ms/op
+
+# Run progress: 0,78% complete, ETA 00:06:37
+# Fork: 8 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,091 ms/op
+
+# Run progress: 0,89% complete, ETA 00:06:36
+# Fork: 9 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+# Run progress: 1,00% complete, ETA 00:06:33
+# Fork: 10 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,080 ms/op
+
+# Run progress: 1,11% complete, ETA 00:06:32
+# Fork: 11 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,072 ms/op
+
+# Run progress: 1,22% complete, ETA 00:06:30
+# Fork: 12 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,063 ms/op
+
+# Run progress: 1,33% complete, ETA 00:06:30
+# Fork: 13 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,079 ms/op
+
+# Run progress: 1,44% complete, ETA 00:06:29
+# Fork: 14 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+# Run progress: 1,56% complete, ETA 00:06:29
+# Fork: 15 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 1,67% complete, ETA 00:06:28
+# Fork: 16 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,093 ms/op
+
+# Run progress: 1,78% complete, ETA 00:06:27
+# Fork: 17 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 1,89% complete, ETA 00:06:25
+# Fork: 18 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 2,00% complete, ETA 00:06:25
+# Fork: 19 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,055 ms/op
+
+# Run progress: 2,11% complete, ETA 00:06:24
+# Fork: 20 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 2,22% complete, ETA 00:06:23
+# Fork: 21 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,080 ms/op
+
+# Run progress: 2,33% complete, ETA 00:06:22
+# Fork: 22 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+# Run progress: 2,44% complete, ETA 00:06:21
+# Fork: 23 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 2,56% complete, ETA 00:06:20
+# Fork: 24 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 2,67% complete, ETA 00:06:19
+# Fork: 25 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,050 ms/op
+
+# Run progress: 2,78% complete, ETA 00:06:19
+# Fork: 26 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 2,89% complete, ETA 00:06:18
+# Fork: 27 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 3,00% complete, ETA 00:06:17
+# Fork: 28 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 3,11% complete, ETA 00:06:17
+# Fork: 29 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 3,22% complete, ETA 00:06:16
+# Fork: 30 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 3,33% complete, ETA 00:06:16
+# Fork: 31 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,093 ms/op
+
+# Run progress: 3,44% complete, ETA 00:06:15
+# Fork: 32 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 3,56% complete, ETA 00:06:15
+# Fork: 33 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 3,67% complete, ETA 00:06:14
+# Fork: 34 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,058 ms/op
+
+# Run progress: 3,78% complete, ETA 00:06:14
+# Fork: 35 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 3,89% complete, ETA 00:06:13
+# Fork: 36 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 4,00% complete, ETA 00:06:13
+# Fork: 37 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,084 ms/op
+
+# Run progress: 4,11% complete, ETA 00:06:12
+# Fork: 38 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 4,22% complete, ETA 00:06:12
+# Fork: 39 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 4,33% complete, ETA 00:06:12
+# Fork: 40 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,095 ms/op
+
+# Run progress: 4,44% complete, ETA 00:06:11
+# Fork: 41 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,081 ms/op
+
+# Run progress: 4,56% complete, ETA 00:06:11
+# Fork: 42 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,079 ms/op
+
+# Run progress: 4,67% complete, ETA 00:06:10
+# Fork: 43 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 4,78% complete, ETA 00:06:10
+# Fork: 44 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 4,89% complete, ETA 00:06:09
+# Fork: 45 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,079 ms/op
+
+# Run progress: 5,00% complete, ETA 00:06:08
+# Fork: 46 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,079 ms/op
+
+# Run progress: 5,11% complete, ETA 00:06:08
+# Fork: 47 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,068 ms/op
+
+# Run progress: 5,22% complete, ETA 00:06:08
+# Fork: 48 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,064 ms/op
+
+# Run progress: 5,33% complete, ETA 00:06:08
+# Fork: 49 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 5,44% complete, ETA 00:06:07
+# Fork: 50 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 5,56% complete, ETA 00:06:06
+# Fork: 51 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,055 ms/op
+
+# Run progress: 5,67% complete, ETA 00:06:06
+# Fork: 52 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,074 ms/op
+
+# Run progress: 5,78% complete, ETA 00:06:05
+# Fork: 53 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,058 ms/op
+
+# Run progress: 5,89% complete, ETA 00:06:05
+# Fork: 54 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 6,00% complete, ETA 00:06:04
+# Fork: 55 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,082 ms/op
+
+# Run progress: 6,11% complete, ETA 00:06:04
+# Fork: 56 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,067 ms/op
+
+# Run progress: 6,22% complete, ETA 00:06:03
+# Fork: 57 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,076 ms/op
+
+# Run progress: 6,33% complete, ETA 00:06:03
+# Fork: 58 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+# Run progress: 6,44% complete, ETA 00:06:02
+# Fork: 59 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 6,56% complete, ETA 00:06:02
+# Fork: 60 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 6,67% complete, ETA 00:06:02
+# Fork: 61 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 6,78% complete, ETA 00:06:01
+# Fork: 62 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,050 ms/op
+
+# Run progress: 6,89% complete, ETA 00:06:01
+# Fork: 63 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,050 ms/op
+
+# Run progress: 7,00% complete, ETA 00:06:00
+# Fork: 64 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,055 ms/op
+
+# Run progress: 7,11% complete, ETA 00:06:00
+# Fork: 65 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 7,22% complete, ETA 00:05:59
+# Fork: 66 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,073 ms/op
+
+# Run progress: 7,33% complete, ETA 00:05:59
+# Fork: 67 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,062 ms/op
+
+# Run progress: 7,44% complete, ETA 00:05:59
+# Fork: 68 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,058 ms/op
+
+# Run progress: 7,56% complete, ETA 00:05:58
+# Fork: 69 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 7,67% complete, ETA 00:05:58
+# Fork: 70 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,062 ms/op
+
+# Run progress: 7,78% complete, ETA 00:05:57
+# Fork: 71 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 7,89% complete, ETA 00:05:57
+# Fork: 72 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,051 ms/op
+
+# Run progress: 8,00% complete, ETA 00:05:56
+# Fork: 73 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 8,11% complete, ETA 00:05:56
+# Fork: 74 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 8,22% complete, ETA 00:05:55
+# Fork: 75 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 8,33% complete, ETA 00:05:55
+# Fork: 76 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,080 ms/op
+
+# Run progress: 8,44% complete, ETA 00:05:54
+# Fork: 77 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+# Run progress: 8,56% complete, ETA 00:05:54
+# Fork: 78 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,077 ms/op
+
+# Run progress: 8,67% complete, ETA 00:05:54
+# Fork: 79 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 8,78% complete, ETA 00:05:53
+# Fork: 80 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,094 ms/op
+
+# Run progress: 8,89% complete, ETA 00:05:53
+# Fork: 81 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 9,00% complete, ETA 00:05:52
+# Fork: 82 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 9,11% complete, ETA 00:05:52
+# Fork: 83 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 9,22% complete, ETA 00:05:52
+# Fork: 84 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,055 ms/op
+
+# Run progress: 9,33% complete, ETA 00:05:51
+# Fork: 85 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,081 ms/op
+
+# Run progress: 9,44% complete, ETA 00:05:51
+# Fork: 86 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,061 ms/op
+
+# Run progress: 9,56% complete, ETA 00:05:51
+# Fork: 87 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,054 ms/op
+
+# Run progress: 9,67% complete, ETA 00:05:50
+# Fork: 88 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 9,78% complete, ETA 00:05:49
+# Fork: 89 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 9,89% complete, ETA 00:05:49
+# Fork: 90 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,080 ms/op
+
+# Run progress: 10,00% complete, ETA 00:05:48
+# Fork: 91 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,051 ms/op
+
+# Run progress: 10,11% complete, ETA 00:05:48
+# Fork: 92 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,078 ms/op
+
+# Run progress: 10,22% complete, ETA 00:05:47
+# Fork: 93 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 10,33% complete, ETA 00:05:47
+# Fork: 94 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,060 ms/op
+
+# Run progress: 10,44% complete, ETA 00:05:47
+# Fork: 95 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,073 ms/op
+
+# Run progress: 10,56% complete, ETA 00:05:46
+# Fork: 96 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 10,67% complete, ETA 00:05:46
+# Fork: 97 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,059 ms/op
+
+# Run progress: 10,78% complete, ETA 00:05:45
+# Fork: 98 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,079 ms/op
+
+# Run progress: 10,89% complete, ETA 00:05:45
+# Fork: 99 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,056 ms/op
+
+# Run progress: 11,00% complete, ETA 00:05:44
+# Fork: 100 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 0,053 ms/op
+
+
+Result: 0,064 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,050, 0,064, 0,095), stdev = 0,012
+  Confidence interval (99.9%): [0,060, 0,068]
+  Samples, N = 100
+        mean =      0,064 ±(99.9%) 0,004 ms/op
+         min =      0,050 ms/op
+  p( 0,0000) =      0,050 ms/op
+  p(50,0000) =      0,060 ms/op
+  p(90,0000) =      0,080 ms/op
+  p(95,0000) =      0,091 ms/op
+  p(99,0000) =      0,095 ms/op
+  p(99,9000) =      0,095 ms/op
+  p(99,9900) =      0,095 ms/op
+  p(99,9990) =      0,095 ms/op
+  p(99,9999) =      0,095 ms/op
+         max =      0,095 ms/op
+
+
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineColdBenchmark.anonymous_class
+# Parameters: (nbPersons = 1000)
+
+# Run progress: 11,11% complete, ETA 00:05:44
+# Fork: 1 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,822 ms/op
+
+# Run progress: 11,22% complete, ETA 00:05:44
+# Fork: 2 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,942 ms/op
+
+# Run progress: 11,33% complete, ETA 00:05:43
+# Fork: 3 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,133 ms/op
+
+# Run progress: 11,44% complete, ETA 00:05:43
+# Fork: 4 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,877 ms/op
+
+# Run progress: 11,56% complete, ETA 00:05:43
+# Fork: 5 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,991 ms/op
+
+# Run progress: 11,67% complete, ETA 00:05:42
+# Fork: 6 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,661 ms/op
+
+# Run progress: 11,78% complete, ETA 00:05:42
+# Fork: 7 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,962 ms/op
+
+# Run progress: 11,89% complete, ETA 00:05:41
+# Fork: 8 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,996 ms/op
+
+# Run progress: 12,00% complete, ETA 00:05:41
+# Fork: 9 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,636 ms/op
+
+# Run progress: 12,11% complete, ETA 00:05:41
+# Fork: 10 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,288 ms/op
+
+# Run progress: 12,22% complete, ETA 00:05:40
+# Fork: 11 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,253 ms/op
+
+# Run progress: 12,33% complete, ETA 00:05:40
+# Fork: 12 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,787 ms/op
+
+# Run progress: 12,44% complete, ETA 00:05:39
+# Fork: 13 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,663 ms/op
+
+# Run progress: 12,56% complete, ETA 00:05:39
+# Fork: 14 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,789 ms/op
+
+# Run progress: 12,67% complete, ETA 00:05:38
+# Fork: 15 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,727 ms/op
+
+# Run progress: 12,78% complete, ETA 00:05:38
+# Fork: 16 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,750 ms/op
+
+# Run progress: 12,89% complete, ETA 00:05:38
+# Fork: 17 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,889 ms/op
+
+# Run progress: 13,00% complete, ETA 00:05:37
+# Fork: 18 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,380 ms/op
+
+# Run progress: 13,11% complete, ETA 00:05:37
+# Fork: 19 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,255 ms/op
+
+# Run progress: 13,22% complete, ETA 00:05:37
+# Fork: 20 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,149 ms/op
+
+# Run progress: 13,33% complete, ETA 00:05:36
+# Fork: 21 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,325 ms/op
+
+# Run progress: 13,44% complete, ETA 00:05:36
+# Fork: 22 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,231 ms/op
+
+# Run progress: 13,56% complete, ETA 00:05:35
+# Fork: 23 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,706 ms/op
+
+# Run progress: 13,67% complete, ETA 00:05:35
+# Fork: 24 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,935 ms/op
+
+# Run progress: 13,78% complete, ETA 00:05:35
+# Fork: 25 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,304 ms/op
+
+# Run progress: 13,89% complete, ETA 00:05:34
+# Fork: 26 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,840 ms/op
+
+# Run progress: 14,00% complete, ETA 00:05:34
+# Fork: 27 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,733 ms/op
+
+# Run progress: 14,11% complete, ETA 00:05:33
+# Fork: 28 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,478 ms/op
+
+# Run progress: 14,22% complete, ETA 00:05:33
+# Fork: 29 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,322 ms/op
+
+# Run progress: 14,33% complete, ETA 00:05:33
+# Fork: 30 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,197 ms/op
+
+# Run progress: 14,44% complete, ETA 00:05:32
+# Fork: 31 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,942 ms/op
+
+# Run progress: 14,56% complete, ETA 00:05:32
+# Fork: 32 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,124 ms/op
+
+# Run progress: 14,67% complete, ETA 00:05:32
+# Fork: 33 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,909 ms/op
+
+# Run progress: 14,78% complete, ETA 00:05:31
+# Fork: 34 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,044 ms/op
+
+# Run progress: 14,89% complete, ETA 00:05:31
+# Fork: 35 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,745 ms/op
+
+# Run progress: 15,00% complete, ETA 00:05:30
+# Fork: 36 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,595 ms/op
+
+# Run progress: 15,11% complete, ETA 00:05:30
+# Fork: 37 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,585 ms/op
+
+# Run progress: 15,22% complete, ETA 00:05:30
+# Fork: 38 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,102 ms/op
+
+# Run progress: 15,33% complete, ETA 00:05:29
+# Fork: 39 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,212 ms/op
+
+# Run progress: 15,44% complete, ETA 00:05:29
+# Fork: 40 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,921 ms/op
+
+# Run progress: 15,56% complete, ETA 00:05:28
+# Fork: 41 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,089 ms/op
+
+# Run progress: 15,67% complete, ETA 00:05:28
+# Fork: 42 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,827 ms/op
+
+# Run progress: 15,78% complete, ETA 00:05:28
+# Fork: 43 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,439 ms/op
+
+# Run progress: 15,89% complete, ETA 00:05:27
+# Fork: 44 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,136 ms/op
+
+# Run progress: 16,00% complete, ETA 00:05:27
+# Fork: 45 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,003 ms/op
+
+# Run progress: 16,11% complete, ETA 00:05:26
+# Fork: 46 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,915 ms/op
+
+# Run progress: 16,22% complete, ETA 00:05:26
+# Fork: 47 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,988 ms/op
+
+# Run progress: 16,33% complete, ETA 00:05:26
+# Fork: 48 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,104 ms/op
+
+# Run progress: 16,44% complete, ETA 00:05:25
+# Fork: 49 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,167 ms/op
+
+# Run progress: 16,56% complete, ETA 00:05:25
+# Fork: 50 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,673 ms/op
+
+# Run progress: 16,67% complete, ETA 00:05:24
+# Fork: 51 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,761 ms/op
+
+# Run progress: 16,78% complete, ETA 00:05:24
+# Fork: 52 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,072 ms/op
+
+# Run progress: 16,89% complete, ETA 00:05:24
+# Fork: 53 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,702 ms/op
+
+# Run progress: 17,00% complete, ETA 00:05:23
+# Fork: 54 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,095 ms/op
+
+# Run progress: 17,11% complete, ETA 00:05:23
+# Fork: 55 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,949 ms/op
+
+# Run progress: 17,22% complete, ETA 00:05:22
+# Fork: 56 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,105 ms/op
+
+# Run progress: 17,33% complete, ETA 00:05:22
+# Fork: 57 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,276 ms/op
+
+# Run progress: 17,44% complete, ETA 00:05:21
+# Fork: 58 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,122 ms/op
+
+# Run progress: 17,56% complete, ETA 00:05:21
+# Fork: 59 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,457 ms/op
+
+# Run progress: 17,67% complete, ETA 00:05:21
+# Fork: 60 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,743 ms/op
+
+# Run progress: 17,78% complete, ETA 00:05:20
+# Fork: 61 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,487 ms/op
+
+# Run progress: 17,89% complete, ETA 00:05:20
+# Fork: 62 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,675 ms/op
+
+# Run progress: 18,00% complete, ETA 00:05:19
+# Fork: 63 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,144 ms/op
+
+# Run progress: 18,11% complete, ETA 00:05:19
+# Fork: 64 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,480 ms/op
+
+# Run progress: 18,22% complete, ETA 00:05:19
+# Fork: 65 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,002 ms/op
+
+# Run progress: 18,33% complete, ETA 00:05:18
+# Fork: 66 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,889 ms/op
+
+# Run progress: 18,44% complete, ETA 00:05:18
+# Fork: 67 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,707 ms/op
+
+# Run progress: 18,56% complete, ETA 00:05:17
+# Fork: 68 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,860 ms/op
+
+# Run progress: 18,67% complete, ETA 00:05:17
+# Fork: 69 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,994 ms/op
+
+# Run progress: 18,78% complete, ETA 00:05:16
+# Fork: 70 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,086 ms/op
+
+# Run progress: 18,89% complete, ETA 00:05:16
+# Fork: 71 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,923 ms/op
+
+# Run progress: 19,00% complete, ETA 00:05:16
+# Fork: 72 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,197 ms/op
+
+# Run progress: 19,11% complete, ETA 00:05:15
+# Fork: 73 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,392 ms/op
+
+# Run progress: 19,22% complete, ETA 00:05:15
+# Fork: 74 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,111 ms/op
+
+# Run progress: 19,33% complete, ETA 00:05:14
+# Fork: 75 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,096 ms/op
+
+# Run progress: 19,44% complete, ETA 00:05:14
+# Fork: 76 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,605 ms/op
+
+# Run progress: 19,56% complete, ETA 00:05:13
+# Fork: 77 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,941 ms/op
+
+# Run progress: 19,67% complete, ETA 00:05:13
+# Fork: 78 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,221 ms/op
+
+# Run progress: 19,78% complete, ETA 00:05:13
+# Fork: 79 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,081 ms/op
+
+# Run progress: 19,89% complete, ETA 00:05:12
+# Fork: 80 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,977 ms/op
+
+# Run progress: 20,00% complete, ETA 00:05:12
+# Fork: 81 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,575 ms/op
+
+# Run progress: 20,11% complete, ETA 00:05:11
+# Fork: 82 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,023 ms/op
+
+# Run progress: 20,22% complete, ETA 00:05:11
+# Fork: 83 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,969 ms/op
+
+# Run progress: 20,33% complete, ETA 00:05:10
+# Fork: 84 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,107 ms/op
+
+# Run progress: 20,44% complete, ETA 00:05:10
+# Fork: 85 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,668 ms/op
+
+# Run progress: 20,56% complete, ETA 00:05:10
+# Fork: 86 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,622 ms/op
+
+# Run progress: 20,67% complete, ETA 00:05:09
+# Fork: 87 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,583 ms/op
+
+# Run progress: 20,78% complete, ETA 00:05:09
+# Fork: 88 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,213 ms/op
+
+# Run progress: 20,89% complete, ETA 00:05:08
+# Fork: 89 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,816 ms/op
+
+# Run progress: 21,00% complete, ETA 00:05:08
+# Fork: 90 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,036 ms/op
+
+# Run progress: 21,11% complete, ETA 00:05:08
+# Fork: 91 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,939 ms/op
+
+# Run progress: 21,22% complete, ETA 00:05:07
+# Fork: 92 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,858 ms/op
+
+# Run progress: 21,33% complete, ETA 00:05:07
+# Fork: 93 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,653 ms/op
+
+# Run progress: 21,44% complete, ETA 00:05:06
+# Fork: 94 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,400 ms/op
+
+# Run progress: 21,56% complete, ETA 00:05:06
+# Fork: 95 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,686 ms/op
+
+# Run progress: 21,67% complete, ETA 00:05:06
+# Fork: 96 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,832 ms/op
+
+# Run progress: 21,78% complete, ETA 00:05:05
+# Fork: 97 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,870 ms/op
+
+# Run progress: 21,89% complete, ETA 00:05:05
+# Fork: 98 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 3,058 ms/op
+
+# Run progress: 22,00% complete, ETA 00:05:04
+# Fork: 99 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 2,860 ms/op
+
+# Run progress: 22,11% complete, ETA 00:05:04
+# Fork: 100 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 4,355 ms/op
+
+
+Result: 3,618 ±(99.9%) 0,150 ms/op [Average]
+  Statistics: (min, avg, max) = (2,858, 3,618, 4,743), stdev = 0,442
+  Confidence interval (99.9%): [3,468, 3,768]
+  Samples, N = 100
+        mean =      3,618 ±(99.9%) 0,150 ms/op
+         min =      2,858 ms/op
+  p( 0,0000) =      2,858 ms/op
+  p(50,0000) =      3,670 ms/op
+  p(90,0000) =      4,107 ms/op
+  p(95,0000) =      4,350 ms/op
+  p(99,0000) =      4,742 ms/op
+  p(99,9000) =      4,743 ms/op
+  p(99,9900) =      4,743 ms/op
+  p(99,9990) =      4,743 ms/op
+  p(99,9999) =      4,743 ms/op
+         max =      4,743 ms/op
+
+
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineColdBenchmark.anonymous_class
+# Parameters: (nbPersons = 1000000)
+
+# Run progress: 22,22% complete, ETA 00:05:04
+# Fork: 1 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1557,782 ms/op
+
+# Run progress: 22,33% complete, ETA 00:05:16
+# Fork: 2 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1646,999 ms/op
+
+# Run progress: 22,44% complete, ETA 00:05:28
+# Fork: 3 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1632,659 ms/op
+
+# Run progress: 22,56% complete, ETA 00:05:40
+# Fork: 4 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1555,275 ms/op
+
+# Run progress: 22,67% complete, ETA 00:05:52
+# Fork: 5 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1617,988 ms/op
+
+# Run progress: 22,78% complete, ETA 00:06:04
+# Fork: 6 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1551,131 ms/op
+
+# Run progress: 22,89% complete, ETA 00:06:15
+# Fork: 7 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1606,032 ms/op
+
+# Run progress: 23,00% complete, ETA 00:06:26
+# Fork: 8 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1642,217 ms/op
+
+# Run progress: 23,11% complete, ETA 00:06:37
+# Fork: 9 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1555,453 ms/op
+
+# Run progress: 23,22% complete, ETA 00:06:49
+# Fork: 10 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1561,181 ms/op
+
+# Run progress: 23,33% complete, ETA 00:07:00
+# Fork: 11 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1653,232 ms/op
+
+# Run progress: 23,44% complete, ETA 00:07:11
+# Fork: 12 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1687,872 ms/op
+
+# Run progress: 23,56% complete, ETA 00:07:21
+# Fork: 13 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1540,001 ms/op
+
+# Run progress: 23,67% complete, ETA 00:07:32
+# Fork: 14 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1569,496 ms/op
+
+# Run progress: 23,78% complete, ETA 00:07:42
+# Fork: 15 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1573,391 ms/op
+
+# Run progress: 23,89% complete, ETA 00:07:52
+# Fork: 16 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1536,599 ms/op
+
+# Run progress: 24,00% complete, ETA 00:08:02
+# Fork: 17 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1749,933 ms/op
+
+# Run progress: 24,11% complete, ETA 00:08:12
+# Fork: 18 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1543,830 ms/op
+
+# Run progress: 24,22% complete, ETA 00:08:22
+# Fork: 19 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1470,121 ms/op
+
+# Run progress: 24,33% complete, ETA 00:08:32
+# Fork: 20 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1598,769 ms/op
+
+# Run progress: 24,44% complete, ETA 00:08:41
+# Fork: 21 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1612,324 ms/op
+
+# Run progress: 24,56% complete, ETA 00:08:50
+# Fork: 22 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1476,686 ms/op
+
+# Run progress: 24,67% complete, ETA 00:09:00
+# Fork: 23 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1492,993 ms/op
+
+# Run progress: 24,78% complete, ETA 00:09:09
+# Fork: 24 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1581,228 ms/op
+
+# Run progress: 24,89% complete, ETA 00:09:17
+# Fork: 25 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1642,206 ms/op
+
+# Run progress: 25,00% complete, ETA 00:09:26
+# Fork: 26 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1508,592 ms/op
+
+# Run progress: 25,11% complete, ETA 00:09:35
+# Fork: 27 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1538,304 ms/op
+
+# Run progress: 25,22% complete, ETA 00:09:43
+# Fork: 28 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1509,150 ms/op
+
+# Run progress: 25,33% complete, ETA 00:09:52
+# Fork: 29 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1567,403 ms/op
+
+# Run progress: 25,44% complete, ETA 00:10:01
+# Fork: 30 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1548,538 ms/op
+
+# Run progress: 25,56% complete, ETA 00:10:09
+# Fork: 31 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1617,538 ms/op
+
+# Run progress: 25,67% complete, ETA 00:10:17
+# Fork: 32 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1572,009 ms/op
+
+# Run progress: 25,78% complete, ETA 00:10:25
+# Fork: 33 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1517,500 ms/op
+
+# Run progress: 25,89% complete, ETA 00:10:34
+# Fork: 34 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1571,360 ms/op
+
+# Run progress: 26,00% complete, ETA 00:10:41
+# Fork: 35 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1580,923 ms/op
+
+# Run progress: 26,11% complete, ETA 00:10:49
+# Fork: 36 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1528,961 ms/op
+
+# Run progress: 26,22% complete, ETA 00:10:57
+# Fork: 37 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1488,063 ms/op
+
+# Run progress: 26,33% complete, ETA 00:11:04
+# Fork: 38 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1466,717 ms/op
+
+# Run progress: 26,44% complete, ETA 00:11:12
+# Fork: 39 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1558,855 ms/op
+
+# Run progress: 26,56% complete, ETA 00:11:19
+# Fork: 40 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1623,971 ms/op
+
+# Run progress: 26,67% complete, ETA 00:11:26
+# Fork: 41 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1471,159 ms/op
+
+# Run progress: 26,78% complete, ETA 00:11:33
+# Fork: 42 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1873,791 ms/op
+
+# Run progress: 26,89% complete, ETA 00:11:41
+# Fork: 43 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1559,625 ms/op
+
+# Run progress: 27,00% complete, ETA 00:11:48
+# Fork: 44 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1480,374 ms/op
+
+# Run progress: 27,11% complete, ETA 00:11:55
+# Fork: 45 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1565,344 ms/op
+
+# Run progress: 27,22% complete, ETA 00:12:02
+# Fork: 46 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1563,775 ms/op
+
+# Run progress: 27,33% complete, ETA 00:12:09
+# Fork: 47 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1636,427 ms/op
+
+# Run progress: 27,44% complete, ETA 00:12:16
+# Fork: 48 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1538,462 ms/op
+
+# Run progress: 27,56% complete, ETA 00:12:23
+# Fork: 49 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1577,376 ms/op
+
+# Run progress: 27,67% complete, ETA 00:12:29
+# Fork: 50 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1499,758 ms/op
+
+# Run progress: 27,78% complete, ETA 00:12:36
+# Fork: 51 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1554,247 ms/op
+
+# Run progress: 27,89% complete, ETA 00:12:42
+# Fork: 52 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1550,898 ms/op
+
+# Run progress: 28,00% complete, ETA 00:12:48
+# Fork: 53 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1579,753 ms/op
+
+# Run progress: 28,11% complete, ETA 00:12:55
+# Fork: 54 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1574,907 ms/op
+
+# Run progress: 28,22% complete, ETA 00:13:01
+# Fork: 55 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1459,781 ms/op
+
+# Run progress: 28,33% complete, ETA 00:13:06
+# Fork: 56 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1515,049 ms/op
+
+# Run progress: 28,44% complete, ETA 00:13:12
+# Fork: 57 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1536,941 ms/op
+
+# Run progress: 28,56% complete, ETA 00:13:18
+# Fork: 58 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1528,584 ms/op
+
+# Run progress: 28,67% complete, ETA 00:13:23
+# Fork: 59 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1636,431 ms/op
+
+# Run progress: 28,78% complete, ETA 00:13:29
+# Fork: 60 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1501,952 ms/op
+
+# Run progress: 28,89% complete, ETA 00:13:35
+# Fork: 61 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1594,670 ms/op
+
+# Run progress: 29,00% complete, ETA 00:13:41
+# Fork: 62 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1517,445 ms/op
+
+# Run progress: 29,11% complete, ETA 00:13:46
+# Fork: 63 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1506,088 ms/op
+
+# Run progress: 29,22% complete, ETA 00:13:52
+# Fork: 64 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1550,220 ms/op
+
+# Run progress: 29,33% complete, ETA 00:13:57
+# Fork: 65 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1496,608 ms/op
+
+# Run progress: 29,44% complete, ETA 00:14:02
+# Fork: 66 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1529,036 ms/op
+
+# Run progress: 29,56% complete, ETA 00:14:07
+# Fork: 67 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1506,790 ms/op
+
+# Run progress: 29,67% complete, ETA 00:14:12
+# Fork: 68 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1567,723 ms/op
+
+# Run progress: 29,78% complete, ETA 00:14:17
+# Fork: 69 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1590,884 ms/op
+
+# Run progress: 29,89% complete, ETA 00:14:23
+# Fork: 70 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1630,584 ms/op
+
+# Run progress: 30,00% complete, ETA 00:14:28
+# Fork: 71 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1552,376 ms/op
+
+# Run progress: 30,11% complete, ETA 00:14:33
+# Fork: 72 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1583,875 ms/op
+
+# Run progress: 30,22% complete, ETA 00:14:38
+# Fork: 73 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1560,373 ms/op
+
+# Run progress: 30,33% complete, ETA 00:14:43
+# Fork: 74 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1532,403 ms/op
+
+# Run progress: 30,44% complete, ETA 00:14:47
+# Fork: 75 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1558,559 ms/op
+
+# Run progress: 30,56% complete, ETA 00:14:52
+# Fork: 76 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1538,000 ms/op
+
+# Run progress: 30,67% complete, ETA 00:14:57
+# Fork: 77 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1484,215 ms/op
+
+# Run progress: 30,78% complete, ETA 00:15:01
+# Fork: 78 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1559,589 ms/op
+
+# Run progress: 30,89% complete, ETA 00:15:05
+# Fork: 79 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1532,993 ms/op
+
+# Run progress: 31,00% complete, ETA 00:15:10
+# Fork: 80 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1628,353 ms/op
+
+# Run progress: 31,11% complete, ETA 00:15:14
+# Fork: 81 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1554,278 ms/op
+
+# Run progress: 31,22% complete, ETA 00:15:18
+# Fork: 82 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1585,303 ms/op
+
+# Run progress: 31,33% complete, ETA 00:15:23
+# Fork: 83 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1489,670 ms/op
+
+# Run progress: 31,44% complete, ETA 00:15:27
+# Fork: 84 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1572,032 ms/op
+
+# Run progress: 31,56% complete, ETA 00:15:31
+# Fork: 85 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1578,764 ms/op
+
+# Run progress: 31,67% complete, ETA 00:15:35
+# Fork: 86 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1551,929 ms/op
+
+# Run progress: 31,78% complete, ETA 00:15:39
+# Fork: 87 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1502,292 ms/op
+
+# Run progress: 31,89% complete, ETA 00:15:42
+# Fork: 88 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1516,049 ms/op
+
+# Run progress: 32,00% complete, ETA 00:15:46
+# Fork: 89 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1509,628 ms/op
+
+# Run progress: 32,11% complete, ETA 00:15:50
+# Fork: 90 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1554,226 ms/op
+
+# Run progress: 32,22% complete, ETA 00:15:54
+# Fork: 91 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1665,912 ms/op
+
+# Run progress: 32,33% complete, ETA 00:15:58
+# Fork: 92 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1555,109 ms/op
+
+# Run progress: 32,44% complete, ETA 00:16:01
+# Fork: 93 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1547,704 ms/op
+
+# Run progress: 32,56% complete, ETA 00:16:05
+# Fork: 94 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1584,594 ms/op
+
+# Run progress: 32,67% complete, ETA 00:16:08
+# Fork: 95 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1518,648 ms/op
+
+# Run progress: 32,78% complete, ETA 00:16:12
+# Fork: 96 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1514,414 ms/op
+
+# Run progress: 32,89% complete, ETA 00:16:15
+# Fork: 97 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1556,383 ms/op
+
+# Run progress: 33,00% complete, ETA 00:16:19
+# Fork: 98 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1555,261 ms/op
+
+# Run progress: 33,11% complete, ETA 00:16:22
+# Fork: 99 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1535,621 ms/op
+
+# Run progress: 33,22% complete, ETA 00:16:25
+# Fork: 100 of 100
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Iteration   1: 1479,334 ms/op
+
+
+Result: 1560,058 ±(99.9%) 20,613 ms/op [Average]
+  Statistics: (min, avg, max) = (1459,781, 1560,058, 1873,791), stdev = 60,777
+  Confidence interval (99.9%): [1539,446, 1580,671]
+  Samples, N = 100
+        mean =   1560,058 ±(99.9%) 20,613 ms/op
+         min =   1459,781 ms/op
+  p( 0,0000) =   1459,781 ms/op
+  p(50,0000) =   1555,185 ms/op
+  p(90,0000) =   1636,050 ms/op
+  p(95,0000) =   1652,920 ms/op
+  p(99,0000) =   1872,552 ms/op
+  p(99,9000) =   1873,791 ms/op
+  p(99,9900) =   1873,791 ms/op
+  p(99,9990) =   1873,791 ms/op
+  p(99,9999) =   1873,791 ms/op
+         max =   1873,791 ms/op
+
+
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: 10 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineHotBenchmark.anonymous_class
+# Parameters: (nbPersons = 10)
+
+# Run progress: 33,33% complete, ETA 00:16:28
+# Fork: 1 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,090 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,053 ms/op
+# Warmup Iteration   4: 0,046 ms/op
+# Warmup Iteration   5: 0,022 ms/op
+# Warmup Iteration   6: 0,019 ms/op
+# Warmup Iteration   7: 0,017 ms/op
+# Warmup Iteration   8: 0,018 ms/op
+# Warmup Iteration   9: 0,027 ms/op
+# Warmup Iteration  10: 0,017 ms/op
+Iteration   1: 0,022 ms/op
+Iteration   2: 0,036 ms/op
+Iteration   3: 0,030 ms/op
+Iteration   4: 0,015 ms/op
+Iteration   5: 0,012 ms/op
+Iteration   6: 0,013 ms/op
+Iteration   7: 0,017 ms/op
+Iteration   8: 0,012 ms/op
+Iteration   9: 0,012 ms/op
+Iteration  10: 0,013 ms/op
+
+# Run progress: 35,56% complete, ETA 00:15:04
+# Fork: 2 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,063 ms/op
+# Warmup Iteration   2: 0,023 ms/op
+# Warmup Iteration   3: 0,028 ms/op
+# Warmup Iteration   4: 0,036 ms/op
+# Warmup Iteration   5: 0,018 ms/op
+# Warmup Iteration   6: 0,027 ms/op
+# Warmup Iteration   7: 0,024 ms/op
+# Warmup Iteration   8: 0,018 ms/op
+# Warmup Iteration   9: 0,018 ms/op
+# Warmup Iteration  10: 0,035 ms/op
+Iteration   1: 0,019 ms/op
+Iteration   2: 0,044 ms/op
+Iteration   3: 0,039 ms/op
+Iteration   4: 0,019 ms/op
+Iteration   5: 0,017 ms/op
+Iteration   6: 0,013 ms/op
+Iteration   7: 0,016 ms/op
+Iteration   8: 0,026 ms/op
+Iteration   9: 0,013 ms/op
+Iteration  10: 0,018 ms/op
+
+# Run progress: 37,78% complete, ETA 00:13:48
+# Fork: 3 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,060 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,028 ms/op
+# Warmup Iteration   4: 0,041 ms/op
+# Warmup Iteration   5: 0,024 ms/op
+# Warmup Iteration   6: 0,025 ms/op
+# Warmup Iteration   7: 0,018 ms/op
+# Warmup Iteration   8: 0,024 ms/op
+# Warmup Iteration   9: 0,019 ms/op
+# Warmup Iteration  10: 0,023 ms/op
+Iteration   1: 0,024 ms/op
+Iteration   2: 0,037 ms/op
+Iteration   3: 0,030 ms/op
+Iteration   4: 0,019 ms/op
+Iteration   5: 0,014 ms/op
+Iteration   6: 0,014 ms/op
+Iteration   7: 0,015 ms/op
+Iteration   8: 0,016 ms/op
+Iteration   9: 0,014 ms/op
+Iteration  10: 0,014 ms/op
+
+# Run progress: 40,00% complete, ETA 00:12:41
+# Fork: 4 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,053 ms/op
+# Warmup Iteration   2: 0,030 ms/op
+# Warmup Iteration   3: 0,034 ms/op
+# Warmup Iteration   4: 0,042 ms/op
+# Warmup Iteration   5: 0,023 ms/op
+# Warmup Iteration   6: 0,026 ms/op
+# Warmup Iteration   7: 0,023 ms/op
+# Warmup Iteration   8: 0,023 ms/op
+# Warmup Iteration   9: 0,018 ms/op
+# Warmup Iteration  10: 0,021 ms/op
+Iteration   1: 0,022 ms/op
+Iteration   2: 0,028 ms/op
+Iteration   3: 0,029 ms/op
+Iteration   4: 0,015 ms/op
+Iteration   5: 0,013 ms/op
+Iteration   6: 0,012 ms/op
+Iteration   7: 0,016 ms/op
+Iteration   8: 0,011 ms/op
+Iteration   9: 0,012 ms/op
+Iteration  10: 0,017 ms/op
+
+# Run progress: 42,22% complete, ETA 00:11:40
+# Fork: 5 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,052 ms/op
+# Warmup Iteration   2: 0,074 ms/op
+# Warmup Iteration   3: 0,048 ms/op
+# Warmup Iteration   4: 0,024 ms/op
+# Warmup Iteration   5: 0,021 ms/op
+# Warmup Iteration   6: 0,024 ms/op
+# Warmup Iteration   7: 0,017 ms/op
+# Warmup Iteration   8: 0,023 ms/op
+# Warmup Iteration   9: 0,019 ms/op
+# Warmup Iteration  10: 0,022 ms/op
+Iteration   1: 0,018 ms/op
+Iteration   2: 0,059 ms/op
+Iteration   3: 0,034 ms/op
+Iteration   4: 0,017 ms/op
+Iteration   5: 0,013 ms/op
+Iteration   6: 0,013 ms/op
+Iteration   7: 0,014 ms/op
+Iteration   8: 0,013 ms/op
+Iteration   9: 0,013 ms/op
+Iteration  10: 0,016 ms/op
+
+# Run progress: 44,44% complete, ETA 00:10:45
+# Fork: 6 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,079 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,036 ms/op
+# Warmup Iteration   4: 0,045 ms/op
+# Warmup Iteration   5: 0,024 ms/op
+# Warmup Iteration   6: 0,019 ms/op
+# Warmup Iteration   7: 0,023 ms/op
+# Warmup Iteration   8: 0,024 ms/op
+# Warmup Iteration   9: 0,017 ms/op
+# Warmup Iteration  10: 0,024 ms/op
+Iteration   1: 0,022 ms/op
+Iteration   2: 0,046 ms/op
+Iteration   3: 0,023 ms/op
+Iteration   4: 0,013 ms/op
+Iteration   5: 0,012 ms/op
+Iteration   6: 0,012 ms/op
+Iteration   7: 0,014 ms/op
+Iteration   8: 0,015 ms/op
+Iteration   9: 0,015 ms/op
+Iteration  10: 0,018 ms/op
+
+# Run progress: 46,67% complete, ETA 00:09:55
+# Fork: 7 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,060 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,035 ms/op
+# Warmup Iteration   4: 0,062 ms/op
+# Warmup Iteration   5: 0,018 ms/op
+# Warmup Iteration   6: 0,020 ms/op
+# Warmup Iteration   7: 0,024 ms/op
+# Warmup Iteration   8: 0,023 ms/op
+# Warmup Iteration   9: 0,018 ms/op
+# Warmup Iteration  10: 0,021 ms/op
+Iteration   1: 0,017 ms/op
+Iteration   2: 0,028 ms/op
+Iteration   3: 0,026 ms/op
+Iteration   4: 0,016 ms/op
+Iteration   5: 0,015 ms/op
+Iteration   6: 0,017 ms/op
+Iteration   7: 0,016 ms/op
+Iteration   8: 0,012 ms/op
+Iteration   9: 0,012 ms/op
+Iteration  10: 0,012 ms/op
+
+# Run progress: 48,89% complete, ETA 00:09:09
+# Fork: 8 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,060 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,036 ms/op
+# Warmup Iteration   4: 0,048 ms/op
+# Warmup Iteration   5: 0,020 ms/op
+# Warmup Iteration   6: 0,027 ms/op
+# Warmup Iteration   7: 0,024 ms/op
+# Warmup Iteration   8: 0,024 ms/op
+# Warmup Iteration   9: 0,018 ms/op
+# Warmup Iteration  10: 0,025 ms/op
+Iteration   1: 0,018 ms/op
+Iteration   2: 0,043 ms/op
+Iteration   3: 0,030 ms/op
+Iteration   4: 0,018 ms/op
+Iteration   5: 0,016 ms/op
+Iteration   6: 0,015 ms/op
+Iteration   7: 0,018 ms/op
+Iteration   8: 0,016 ms/op
+Iteration   9: 0,018 ms/op
+Iteration  10: 0,016 ms/op
+
+# Run progress: 51,11% complete, ETA 00:08:26
+# Fork: 9 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,061 ms/op
+# Warmup Iteration   2: 0,031 ms/op
+# Warmup Iteration   3: 0,028 ms/op
+# Warmup Iteration   4: 0,031 ms/op
+# Warmup Iteration   5: 0,017 ms/op
+# Warmup Iteration   6: 0,020 ms/op
+# Warmup Iteration   7: 0,024 ms/op
+# Warmup Iteration   8: 0,022 ms/op
+# Warmup Iteration   9: 0,024 ms/op
+# Warmup Iteration  10: 0,023 ms/op
+Iteration   1: 0,018 ms/op
+Iteration   2: 0,042 ms/op
+Iteration   3: 0,033 ms/op
+Iteration   4: 0,018 ms/op
+Iteration   5: 0,012 ms/op
+Iteration   6: 0,012 ms/op
+Iteration   7: 0,012 ms/op
+Iteration   8: 0,015 ms/op
+Iteration   9: 0,016 ms/op
+Iteration  10: 0,014 ms/op
+
+# Run progress: 53,33% complete, ETA 00:07:47
+# Fork: 10 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 0,060 ms/op
+# Warmup Iteration   2: 0,031 ms/op
+# Warmup Iteration   3: 0,037 ms/op
+# Warmup Iteration   4: 0,034 ms/op
+# Warmup Iteration   5: 0,023 ms/op
+# Warmup Iteration   6: 0,026 ms/op
+# Warmup Iteration   7: 0,022 ms/op
+# Warmup Iteration   8: 0,023 ms/op
+# Warmup Iteration   9: 0,019 ms/op
+# Warmup Iteration  10: 0,021 ms/op
+Iteration   1: 0,025 ms/op
+Iteration   2: 0,059 ms/op
+Iteration   3: 0,035 ms/op
+Iteration   4: 0,019 ms/op
+Iteration   5: 0,015 ms/op
+Iteration   6: 0,015 ms/op
+Iteration   7: 0,013 ms/op
+Iteration   8: 0,014 ms/op
+Iteration   9: 0,014 ms/op
+Iteration  10: 0,014 ms/op
+
+
+Result: 0,020 ±(99.9%) 0,003 ms/op [Average]
+  Statistics: (min, avg, max) = (0,011, 0,020, 0,059), stdev = 0,010
+  Confidence interval (99.9%): [0,016, 0,023]
+  Samples, N = 100
+        mean =      0,020 ±(99.9%) 0,003 ms/op
+         min =      0,011 ms/op
+  p( 0,0000) =      0,011 ms/op
+  p(50,0000) =      0,016 ms/op
+  p(90,0000) =      0,035 ms/op
+  p(95,0000) =      0,043 ms/op
+  p(99,0000) =      0,059 ms/op
+  p(99,9000) =      0,059 ms/op
+  p(99,9900) =      0,059 ms/op
+  p(99,9990) =      0,059 ms/op
+  p(99,9999) =      0,059 ms/op
+         max =      0,059 ms/op
+
+
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: 10 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineHotBenchmark.anonymous_class
+# Parameters: (nbPersons = 1000)
+
+# Run progress: 55,56% complete, ETA 00:07:11
+# Fork: 1 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,792 ms/op
+# Warmup Iteration   2: 1,136 ms/op
+# Warmup Iteration   3: 1,095 ms/op
+# Warmup Iteration   4: 1,122 ms/op
+# Warmup Iteration   5: 1,117 ms/op
+# Warmup Iteration   6: 0,834 ms/op
+# Warmup Iteration   7: 0,858 ms/op
+# Warmup Iteration   8: 0,609 ms/op
+# Warmup Iteration   9: 0,601 ms/op
+# Warmup Iteration  10: 0,949 ms/op
+Iteration   1: 0,661 ms/op
+Iteration   2: 0,595 ms/op
+Iteration   3: 0,399 ms/op
+Iteration   4: 0,454 ms/op
+Iteration   5: 0,492 ms/op
+Iteration   6: 0,859 ms/op
+Iteration   7: 1,293 ms/op
+Iteration   8: 1,046 ms/op
+Iteration   9: 0,903 ms/op
+Iteration  10: 0,993 ms/op
+
+# Run progress: 57,78% complete, ETA 00:06:37
+# Fork: 2 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,814 ms/op
+# Warmup Iteration   2: 1,755 ms/op
+# Warmup Iteration   3: 1,130 ms/op
+# Warmup Iteration   4: 1,658 ms/op
+# Warmup Iteration   5: 1,137 ms/op
+# Warmup Iteration   6: 0,833 ms/op
+# Warmup Iteration   7: 0,915 ms/op
+# Warmup Iteration   8: 0,955 ms/op
+# Warmup Iteration   9: 0,622 ms/op
+# Warmup Iteration  10: 0,613 ms/op
+Iteration   1: 0,598 ms/op
+Iteration   2: 0,643 ms/op
+Iteration   3: 0,462 ms/op
+Iteration   4: 0,683 ms/op
+Iteration   5: 0,509 ms/op
+Iteration   6: 0,406 ms/op
+Iteration   7: 0,590 ms/op
+Iteration   8: 1,257 ms/op
+Iteration   9: 0,846 ms/op
+Iteration  10: 0,963 ms/op
+
+# Run progress: 60,00% complete, ETA 00:06:05
+# Fork: 3 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,864 ms/op
+# Warmup Iteration   2: 1,276 ms/op
+# Warmup Iteration   3: 1,309 ms/op
+# Warmup Iteration   4: 1,325 ms/op
+# Warmup Iteration   5: 1,323 ms/op
+# Warmup Iteration   6: 1,286 ms/op
+# Warmup Iteration   7: 0,771 ms/op
+# Warmup Iteration   8: 0,920 ms/op
+# Warmup Iteration   9: 0,601 ms/op
+# Warmup Iteration  10: 0,626 ms/op
+Iteration   1: 0,630 ms/op
+Iteration   2: 0,490 ms/op
+Iteration   3: 0,456 ms/op
+Iteration   4: 0,640 ms/op
+Iteration   5: 0,509 ms/op
+Iteration   6: 0,494 ms/op
+Iteration   7: 0,705 ms/op
+Iteration   8: 1,059 ms/op
+Iteration   9: 0,983 ms/op
+Iteration  10: 1,176 ms/op
+
+# Run progress: 62,22% complete, ETA 00:05:35
+# Fork: 4 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 2,970 ms/op
+# Warmup Iteration   2: 1,628 ms/op
+# Warmup Iteration   3: 1,223 ms/op
+# Warmup Iteration   4: 1,712 ms/op
+# Warmup Iteration   5: 1,532 ms/op
+# Warmup Iteration   6: 0,799 ms/op
+# Warmup Iteration   7: 0,928 ms/op
+# Warmup Iteration   8: 0,654 ms/op
+# Warmup Iteration   9: 0,601 ms/op
+# Warmup Iteration  10: 0,622 ms/op
+Iteration   1: 0,554 ms/op
+Iteration   2: 0,564 ms/op
+Iteration   3: 0,457 ms/op
+Iteration   4: 0,466 ms/op
+Iteration   5: 0,431 ms/op
+Iteration   6: 0,660 ms/op
+Iteration   7: 1,013 ms/op
+Iteration   8: 0,834 ms/op
+Iteration   9: 0,773 ms/op
+Iteration  10: 1,071 ms/op
+
+# Run progress: 64,44% complete, ETA 00:05:07
+# Fork: 5 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,361 ms/op
+# Warmup Iteration   2: 1,238 ms/op
+# Warmup Iteration   3: 1,227 ms/op
+# Warmup Iteration   4: 1,327 ms/op
+# Warmup Iteration   5: 1,413 ms/op
+# Warmup Iteration   6: 0,820 ms/op
+# Warmup Iteration   7: 0,959 ms/op
+# Warmup Iteration   8: 0,794 ms/op
+# Warmup Iteration   9: 0,871 ms/op
+# Warmup Iteration  10: 0,863 ms/op
+Iteration   1: 0,543 ms/op
+Iteration   2: 0,760 ms/op
+Iteration   3: 0,439 ms/op
+Iteration   4: 0,644 ms/op
+Iteration   5: 0,576 ms/op
+Iteration   6: 0,519 ms/op
+Iteration   7: 1,374 ms/op
+Iteration   8: 0,886 ms/op
+Iteration   9: 1,270 ms/op
+Iteration  10: 1,234 ms/op
+
+# Run progress: 66,67% complete, ETA 00:04:40
+# Fork: 6 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,979 ms/op
+# Warmup Iteration   2: 1,705 ms/op
+# Warmup Iteration   3: 1,273 ms/op
+# Warmup Iteration   4: 1,287 ms/op
+# Warmup Iteration   5: 0,862 ms/op
+# Warmup Iteration   6: 1,237 ms/op
+# Warmup Iteration   7: 1,084 ms/op
+# Warmup Iteration   8: 0,913 ms/op
+# Warmup Iteration   9: 0,821 ms/op
+# Warmup Iteration  10: 0,693 ms/op
+Iteration   1: 0,718 ms/op
+Iteration   2: 0,590 ms/op
+Iteration   3: 0,608 ms/op
+Iteration   4: 0,524 ms/op
+Iteration   5: 0,707 ms/op
+Iteration   6: 1,267 ms/op
+Iteration   7: 0,952 ms/op
+Iteration   8: 0,974 ms/op
+Iteration   9: 0,810 ms/op
+Iteration  10: 1,097 ms/op
+
+# Run progress: 68,89% complete, ETA 00:04:15
+# Fork: 7 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 2,992 ms/op
+# Warmup Iteration   2: 1,269 ms/op
+# Warmup Iteration   3: 1,212 ms/op
+# Warmup Iteration   4: 1,284 ms/op
+# Warmup Iteration   5: 1,246 ms/op
+# Warmup Iteration   6: 1,224 ms/op
+# Warmup Iteration   7: 1,150 ms/op
+# Warmup Iteration   8: 0,916 ms/op
+# Warmup Iteration   9: 0,823 ms/op
+# Warmup Iteration  10: 0,748 ms/op
+Iteration   1: 0,530 ms/op
+Iteration   2: 0,663 ms/op
+Iteration   3: 0,448 ms/op
+Iteration   4: 0,476 ms/op
+Iteration   5: 0,503 ms/op
+Iteration   6: 0,616 ms/op
+Iteration   7: 1,326 ms/op
+Iteration   8: 1,067 ms/op
+Iteration   9: 0,977 ms/op
+Iteration  10: 0,988 ms/op
+
+# Run progress: 71,11% complete, ETA 00:03:51
+# Fork: 8 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 2,908 ms/op
+# Warmup Iteration   2: 1,215 ms/op
+# Warmup Iteration   3: 1,184 ms/op
+# Warmup Iteration   4: 1,296 ms/op
+# Warmup Iteration   5: 1,138 ms/op
+# Warmup Iteration   6: 0,798 ms/op
+# Warmup Iteration   7: 1,023 ms/op
+# Warmup Iteration   8: 0,984 ms/op
+# Warmup Iteration   9: 0,631 ms/op
+# Warmup Iteration  10: 0,623 ms/op
+Iteration   1: 0,536 ms/op
+Iteration   2: 0,535 ms/op
+Iteration   3: 0,440 ms/op
+Iteration   4: 0,721 ms/op
+Iteration   5: 0,515 ms/op
+Iteration   6: 0,438 ms/op
+Iteration   7: 0,714 ms/op
+Iteration   8: 1,137 ms/op
+Iteration   9: 1,238 ms/op
+Iteration  10: 1,361 ms/op
+
+# Run progress: 73,33% complete, ETA 00:03:29
+# Fork: 9 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 3,576 ms/op
+# Warmup Iteration   2: 1,216 ms/op
+# Warmup Iteration   3: 1,069 ms/op
+# Warmup Iteration   4: 1,722 ms/op
+# Warmup Iteration   5: 1,273 ms/op
+# Warmup Iteration   6: 1,247 ms/op
+# Warmup Iteration   7: 0,871 ms/op
+# Warmup Iteration   8: 0,881 ms/op
+# Warmup Iteration   9: 0,593 ms/op
+# Warmup Iteration  10: 0,631 ms/op
+Iteration   1: 0,680 ms/op
+Iteration   2: 0,638 ms/op
+Iteration   3: 0,447 ms/op
+Iteration   4: 0,650 ms/op
+Iteration   5: 0,625 ms/op
+Iteration   6: 0,431 ms/op
+Iteration   7: 0,708 ms/op
+Iteration   8: 1,282 ms/op
+Iteration   9: 1,375 ms/op
+Iteration  10: 0,508 ms/op
+
+# Run progress: 75,56% complete, ETA 00:03:07
+# Fork: 10 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 4,669 ms/op
+# Warmup Iteration   2: 1,748 ms/op
+# Warmup Iteration   3: 1,295 ms/op
+# Warmup Iteration   4: 1,641 ms/op
+# Warmup Iteration   5: 1,110 ms/op
+# Warmup Iteration   6: 0,841 ms/op
+# Warmup Iteration   7: 0,848 ms/op
+# Warmup Iteration   8: 0,884 ms/op
+# Warmup Iteration   9: 0,813 ms/op
+# Warmup Iteration  10: 0,742 ms/op
+Iteration   1: 0,734 ms/op
+Iteration   2: 0,667 ms/op
+Iteration   3: 0,460 ms/op
+Iteration   4: 0,480 ms/op
+Iteration   5: 0,456 ms/op
+Iteration   6: 0,490 ms/op
+Iteration   7: 0,621 ms/op
+Iteration   8: 0,570 ms/op
+Iteration   9: 1,370 ms/op
+Iteration  10: 0,974 ms/op
+
+
+Result: 0,745 ±(99.9%) 0,097 ms/op [Average]
+  Statistics: (min, avg, max) = (0,399, 0,745, 1,375), stdev = 0,285
+  Confidence interval (99.9%): [0,648, 0,842]
+  Samples, N = 100
+        mean =      0,745 ±(99.9%) 0,097 ms/op
+         min =      0,399 ms/op
+  p( 0,0000) =      0,399 ms/op
+  p(50,0000) =      0,647 ms/op
+  p(90,0000) =      1,255 ms/op
+  p(95,0000) =      1,324 ms/op
+  p(99,0000) =      1,375 ms/op
+  p(99,9000) =      1,375 ms/op
+  p(99,9900) =      1,375 ms/op
+  p(99,9990) =      1,375 ms/op
+  p(99,9999) =      1,375 ms/op
+         max =      1,375 ms/op
+
+
+# JMH 1.5.2 (released 251 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.7.0_80/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation -javaagent:/usr/share/java/jayatanaag.jar
+# Warmup: 10 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.AnonymousBaselineHotBenchmark.anonymous_class
+# Parameters: (nbPersons = 1000000)
+
+# Run progress: 77,78% complete, ETA 00:02:46
+# Fork: 1 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1454,089 ms/op
+# Warmup Iteration   2: 1276,516 ms/op
+# Warmup Iteration   3: 1219,587 ms/op
+# Warmup Iteration   4: 1228,452 ms/op
+# Warmup Iteration   5: 1228,121 ms/op
+# Warmup Iteration   6: 1219,472 ms/op
+# Warmup Iteration   7: 1221,961 ms/op
+# Warmup Iteration   8: 1226,692 ms/op
+# Warmup Iteration   9: 1246,677 ms/op
+# Warmup Iteration  10: 1228,706 ms/op
+Iteration   1: 1230,967 ms/op
+Iteration   2: 1224,613 ms/op
+Iteration   3: 1228,643 ms/op
+Iteration   4: 1228,461 ms/op
+Iteration   5: 1228,967 ms/op
+Iteration   6: 1222,977 ms/op
+Iteration   7: 1225,092 ms/op
+Iteration   8: 1228,275 ms/op
+Iteration   9: 1229,389 ms/op
+Iteration  10: 1224,903 ms/op
+
+# Run progress: 80,00% complete, ETA 00:02:36
+# Fork: 2 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1666,015 ms/op
+# Warmup Iteration   2: 1249,292 ms/op
+# Warmup Iteration   3: 1180,279 ms/op
+# Warmup Iteration   4: 1239,845 ms/op
+# Warmup Iteration   5: 1181,977 ms/op
+# Warmup Iteration   6: 1178,603 ms/op
+# Warmup Iteration   7: 1178,128 ms/op
+# Warmup Iteration   8: 1171,198 ms/op
+# Warmup Iteration   9: 1172,941 ms/op
+# Warmup Iteration  10: 1175,781 ms/op
+Iteration   1: 1174,279 ms/op
+Iteration   2: 1175,853 ms/op
+Iteration   3: 1176,228 ms/op
+Iteration   4: 1177,122 ms/op
+Iteration   5: 1179,963 ms/op
+Iteration   6: 1172,847 ms/op
+Iteration   7: 1175,090 ms/op
+Iteration   8: 1176,775 ms/op
+Iteration   9: 1179,900 ms/op
+Iteration  10: 1179,656 ms/op
+
+# Run progress: 82,22% complete, ETA 00:02:23
+# Fork: 3 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1554,816 ms/op
+# Warmup Iteration   2: 1267,287 ms/op
+# Warmup Iteration   3: 1185,701 ms/op
+# Warmup Iteration   4: 1187,929 ms/op
+# Warmup Iteration   5: 1179,702 ms/op
+# Warmup Iteration   6: 1177,915 ms/op
+# Warmup Iteration   7: 1176,089 ms/op
+# Warmup Iteration   8: 1180,430 ms/op
+# Warmup Iteration   9: 1184,877 ms/op
+# Warmup Iteration  10: 1187,585 ms/op
+Iteration   1: 1175,100 ms/op
+Iteration   2: 1177,681 ms/op
+Iteration   3: 1178,057 ms/op
+Iteration   4: 1181,244 ms/op
+Iteration   5: 1176,463 ms/op
+Iteration   6: 1256,494 ms/op
+Iteration   7: 1183,032 ms/op
+Iteration   8: 1180,018 ms/op
+Iteration   9: 1189,374 ms/op
+Iteration  10: 1180,465 ms/op
+
+# Run progress: 84,44% complete, ETA 00:02:09
+# Fork: 4 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1541,324 ms/op
+# Warmup Iteration   2: 1294,950 ms/op
+# Warmup Iteration   3: 1209,449 ms/op
+# Warmup Iteration   4: 1215,540 ms/op
+# Warmup Iteration   5: 1216,636 ms/op
+# Warmup Iteration   6: 1212,799 ms/op
+# Warmup Iteration   7: 1208,911 ms/op
+# Warmup Iteration   8: 1211,260 ms/op
+# Warmup Iteration   9: 1214,918 ms/op
+# Warmup Iteration  10: 1211,845 ms/op
+Iteration   1: 1209,502 ms/op
+Iteration   2: 1202,710 ms/op
+Iteration   3: 1210,938 ms/op
+Iteration   4: 1207,730 ms/op
+Iteration   5: 1208,546 ms/op
+Iteration   6: 1208,057 ms/op
+Iteration   7: 1213,229 ms/op
+Iteration   8: 1210,950 ms/op
+Iteration   9: 1209,731 ms/op
+Iteration  10: 1223,278 ms/op
+
+# Run progress: 86,67% complete, ETA 00:01:54
+# Fork: 5 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1545,159 ms/op
+# Warmup Iteration   2: 1215,905 ms/op
+# Warmup Iteration   3: 1175,801 ms/op
+# Warmup Iteration   4: 1220,343 ms/op
+# Warmup Iteration   5: 1170,757 ms/op
+# Warmup Iteration   6: 1174,075 ms/op
+# Warmup Iteration   7: 1170,076 ms/op
+# Warmup Iteration   8: 1175,197 ms/op
+# Warmup Iteration   9: 1172,802 ms/op
+# Warmup Iteration  10: 1179,806 ms/op
+Iteration   1: 1177,319 ms/op
+Iteration   2: 1178,338 ms/op
+Iteration   3: 1174,276 ms/op
+Iteration   4: 1172,666 ms/op
+Iteration   5: 1194,152 ms/op
+Iteration   6: 1178,482 ms/op
+Iteration   7: 1174,688 ms/op
+Iteration   8: 1177,303 ms/op
+Iteration   9: 1174,913 ms/op
+Iteration  10: 1172,290 ms/op
+
+# Run progress: 88,89% complete, ETA 00:01:37
+# Fork: 6 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1534,197 ms/op
+# Warmup Iteration   2: 1309,740 ms/op
+# Warmup Iteration   3: 1182,608 ms/op
+# Warmup Iteration   4: 1198,397 ms/op
+# Warmup Iteration   5: 1188,743 ms/op
+# Warmup Iteration   6: 1194,768 ms/op
+# Warmup Iteration   7: 1194,858 ms/op
+# Warmup Iteration   8: 1192,327 ms/op
+# Warmup Iteration   9: 1194,252 ms/op
+# Warmup Iteration  10: 1192,393 ms/op
+Iteration   1: 1185,138 ms/op
+Iteration   2: 1192,191 ms/op
+Iteration   3: 1192,461 ms/op
+Iteration   4: 1195,450 ms/op
+Iteration   5: 1192,761 ms/op
+Iteration   6: 1191,831 ms/op
+Iteration   7: 1263,427 ms/op
+Iteration   8: 1217,343 ms/op
+Iteration   9: 1188,839 ms/op
+Iteration  10: 1182,237 ms/op
+
+# Run progress: 91,11% complete, ETA 00:01:20
+# Fork: 7 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1466,842 ms/op
+# Warmup Iteration   2: 1264,853 ms/op
+# Warmup Iteration   3: 1177,962 ms/op
+# Warmup Iteration   4: 1182,472 ms/op
+# Warmup Iteration   5: 1181,276 ms/op
+# Warmup Iteration   6: 1187,065 ms/op
+# Warmup Iteration   7: 1175,297 ms/op
+# Warmup Iteration   8: 1180,177 ms/op
+# Warmup Iteration   9: 1177,549 ms/op
+# Warmup Iteration  10: 1182,378 ms/op
+Iteration   1: 1179,759 ms/op
+Iteration   2: 1179,409 ms/op
+Iteration   3: 1180,374 ms/op
+Iteration   4: 1182,193 ms/op
+Iteration   5: 1182,430 ms/op
+Iteration   6: 1179,985 ms/op
+Iteration   7: 1186,790 ms/op
+Iteration   8: 1179,317 ms/op
+Iteration   9: 1184,228 ms/op
+Iteration  10: 1178,298 ms/op
+
+# Run progress: 93,33% complete, ETA 00:01:01
+# Fork: 8 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1503,191 ms/op
+# Warmup Iteration   2: 1256,436 ms/op
+# Warmup Iteration   3: 1184,645 ms/op
+# Warmup Iteration   4: 1186,370 ms/op
+# Warmup Iteration   5: 1191,963 ms/op
+# Warmup Iteration   6: 1186,030 ms/op
+# Warmup Iteration   7: 1186,586 ms/op
+# Warmup Iteration   8: 1184,496 ms/op
+# Warmup Iteration   9: 1185,354 ms/op
+# Warmup Iteration  10: 1189,233 ms/op
+Iteration   1: 1188,815 ms/op
+Iteration   2: 1186,894 ms/op
+Iteration   3: 1191,977 ms/op
+Iteration   4: 1182,334 ms/op
+Iteration   5: 1178,692 ms/op
+Iteration   6: 1180,542 ms/op
+Iteration   7: 1193,459 ms/op
+Iteration   8: 1187,849 ms/op
+Iteration   9: 1182,902 ms/op
+Iteration  10: 1181,664 ms/op
+
+# Run progress: 95,56% complete, ETA 00:00:41
+# Fork: 9 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1531,484 ms/op
+# Warmup Iteration   2: 1273,271 ms/op
+# Warmup Iteration   3: 1202,631 ms/op
+# Warmup Iteration   4: 1205,733 ms/op
+# Warmup Iteration   5: 1203,258 ms/op
+# Warmup Iteration   6: 1200,151 ms/op
+# Warmup Iteration   7: 1201,956 ms/op
+# Warmup Iteration   8: 1201,316 ms/op
+# Warmup Iteration   9: 1198,469 ms/op
+# Warmup Iteration  10: 1199,100 ms/op
+Iteration   1: 1203,158 ms/op
+Iteration   2: 1203,346 ms/op
+Iteration   3: 1196,934 ms/op
+Iteration   4: 1196,841 ms/op
+Iteration   5: 1202,659 ms/op
+Iteration   6: 1198,635 ms/op
+Iteration   7: 1201,972 ms/op
+Iteration   8: 1209,633 ms/op
+Iteration   9: 1212,369 ms/op
+Iteration  10: 1208,071 ms/op
+
+# Run progress: 97,78% complete, ETA 00:00:21
+# Fork: 10 of 10
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+# Warmup Iteration   1: 1519,540 ms/op
+# Warmup Iteration   2: 1301,752 ms/op
+# Warmup Iteration   3: 1187,588 ms/op
+# Warmup Iteration   4: 1188,441 ms/op
+# Warmup Iteration   5: 1182,142 ms/op
+# Warmup Iteration   6: 1185,878 ms/op
+# Warmup Iteration   7: 1187,160 ms/op
+# Warmup Iteration   8: 1187,295 ms/op
+# Warmup Iteration   9: 1186,377 ms/op
+# Warmup Iteration  10: 1189,730 ms/op
+Iteration   1: 1191,651 ms/op
+Iteration   2: 1190,008 ms/op
+Iteration   3: 1185,996 ms/op
+Iteration   4: 1181,170 ms/op
+Iteration   5: 1190,424 ms/op
+Iteration   6: 1180,030 ms/op
+Iteration   7: 1182,555 ms/op
+Iteration   8: 1185,817 ms/op
+Iteration   9: 1184,302 ms/op
+Iteration  10: 1182,405 ms/op
+
+
+Result: 1193,546 ±(99.9%) 6,485 ms/op [Average]
+  Statistics: (min, avg, max) = (1172,290, 1193,546, 1263,427), stdev = 19,122
+  Confidence interval (99.9%): [1187,061, 1200,031]
+  Samples, N = 100
+        mean =   1193,546 ±(99.9%) 6,485 ms/op
+         min =   1172,290 ms/op
+  p( 0,0000) =   1172,290 ms/op
+  p(50,0000) =   1186,393 ms/op
+  p(90,0000) =   1224,874 ms/op
+  p(95,0000) =   1228,950 ms/op
+  p(99,0000) =   1263,358 ms/op
+  p(99,9000) =   1263,427 ms/op
+  p(99,9900) =   1263,427 ms/op
+  p(99,9990) =   1263,427 ms/op
+  p(99,9999) =   1263,427 ms/op
+         max =   1263,427 ms/op
+
+
+# Run complete. Total time: 00:16:19
+
+Benchmark                                       (nbPersons)  Mode  Cnt     Score    Error  Units
+AnonymousBaselineColdBenchmark.anonymous_class           10    ss  100     0,064 ±  0,004  ms/op
+AnonymousBaselineColdBenchmark.anonymous_class         1000    ss  100     3,618 ±  0,150  ms/op
+AnonymousBaselineColdBenchmark.anonymous_class      1000000    ss  100  1560,058 ± 20,613  ms/op
+AnonymousBaselineHotBenchmark.anonymous_class            10    ss  100     0,020 ±  0,003  ms/op
+AnonymousBaselineHotBenchmark.anonymous_class          1000    ss  100     0,745 ±  0,097  ms/op
+AnonymousBaselineHotBenchmark.anonymous_class       1000000    ss  100  1193,546 ±  6,485  ms/op
