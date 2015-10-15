@@ -25,7 +25,7 @@ import org.openjdk.jmh.infra.Blackhole;
 @Measurement(iterations = 1)
 @Fork(value = 100, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
 @Threads(1)
-public class AnonymousBaselineenchmark extends AnonymousBaselineBenchmark {
+public class AnonymousBaselineColdBenchmark extends AnonymousBaselineBenchmark {
 
 	@Benchmark
 	public void anonymous_class(PersonnesContainer c, Blackhole blackHole) {
