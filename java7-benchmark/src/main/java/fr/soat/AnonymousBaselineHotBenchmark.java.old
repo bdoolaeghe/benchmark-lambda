@@ -12,24 +12,24 @@ import org.openjdk.jmh.annotations.Threads;
 import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 
+@BenchmarkMode(Mode.SingleShotTime)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
+@Warmup(iterations = 10)
+@Measurement(iterations = 100)
+@Fork(value = 10, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
+@Threads(1)
 //@BenchmarkMode(Mode.SingleShotTime)
 //@OutputTimeUnit(TimeUnit.MILLISECONDS)
-//@Warmup(iterations = 0)
+//@Warmup(iterations = 1)
 //@Measurement(iterations = 1)
 //@Fork(value = 1, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
 //@Threads(1)
-//
-@BenchmarkMode(Mode.SingleShotTime)
-@OutputTimeUnit(TimeUnit.MILLISECONDS)
-@Warmup(iterations = 0)
-@Measurement(iterations = 1)
-@Fork(value = 100, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
-@Threads(1)
-public class AnonymousBaselineColdBenchmark extends AnonymousBaselineBenchmark {
+public class AnonymousBaselineHotBenchmark extends AnonymousBaselineBenchmark {
 
 	@Benchmark
 	public void anonymous_class(PersonnesContainer c, Blackhole blackHole) {
 		super.anonymous_class(c, blackHole);
 	}
+
 
 }

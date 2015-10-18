@@ -21,7 +21,8 @@ public class PersonnesContainer extends Benchmarked {
 //    	"200000", 
 //    	"400000",
 //    	"800000",
-    	"1000000"
+//    	"1000000"
+    	"100000"
     	})
 	protected int nbPersons;
 
