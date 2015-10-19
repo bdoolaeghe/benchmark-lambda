@@ -1,0 +1,63 @@
+# JMH 1.5.2 (released 254 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Warmup: 10 iterations, single-shot each
+# Measurement: 100 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 10)
+
+# Run progress: 0,00% complete, ETA 00:00:29
+# Fork: 1 of 10
+# Warmup Iteration   1: 0,657 ms/op
+# Warmup Iteration   2: 0,022 ms/op
+# Warmup Iteration   3: 0,051 ms/op
+# Warmup Iteration   4: 0,014 ms/op
+# Warmup Iteration   5: 0,013 ms/op
+# Warmup Iteration   6: 0,017 ms/op
+# Warmup Iteration   7: 0,029 ms/op
+# Warmup Iteration   8: 0,015 ms/op
+# Warmup Iteration   9: 0,019 ms/op
+# Warmup Iteration  10: 0,021 ms/op
+Iteration   1: 0,024 ms/op
+Iteration   2: 0,046 ms/op
+Iteration   3: 0,042 ms/op
+Iteration   4: 0,017 ms/op
+Iteration   5: 0,015 ms/op
+Iteration   6: 0,012 ms/op
+Iteration   7: 0,011 ms/op
+Iteration   8: 0,024 ms/op
+Iteration   9: 0,013 ms/op
+Iteration  10: 0,014 ms/op
+Iteration  11: 0,015 ms/op
+Iteration  12: 0,015 ms/op
+Iteration  13: 0,011 ms/op
+Iteration  14: 0,010 ms/op
+Iteration  15: 0,010 ms/op
+Iteration  16: 0,010 ms/op
+Iteration  17: 0,010 ms/op
+Iteration  18: 0,014 ms/op
+Iteration  19: 0,014 ms/op
+Iteration  20: 0,017 ms/op
+Iteration  21: 0,012 ms/op
+Iteration  22: 0,018 ms/op
+Iteration  23: 0,010 ms/op
+Iteration  24: 0,011 ms/op
+Iteration  25: 0,017 ms/op
+Iteration  26: 0,016 ms/op
+Iteration  27: 0,025 ms/op
+Iteration  28: 0,010 ms/op
+Iteration  29: 0,010 ms/op
+Iteration  30: 0,011 ms/op
+Iteration  31: 0,012 ms/op
+Iteration  32: 0,019 ms/op
+Iteration  33: 0,015 ms/op
+Iteration  34: 0,013 ms/op
+Iteration  35: 0,014 ms/op
+Iteration  36: 0,013 ms/op
+Iteration  37: 0,014 ms/op
+Iteration  38: 0,017 ms/op
+Iteration  39: 0,012 ms/op
+Iteration  40: 0,018 ms/op
