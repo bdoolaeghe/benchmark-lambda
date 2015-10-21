@@ -14,9 +14,9 @@ public class PersonnesContainer extends Benchmarked {
 
     @Param({
     	"10",
-//    	"100",
+    	"100",
     	"1000",
-//    	"10000",
+    	"10000",
 //    	"100000",
 //    	"200000", 
 //    	"400000",

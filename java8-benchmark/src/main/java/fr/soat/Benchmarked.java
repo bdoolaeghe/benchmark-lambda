@@ -1,7 +1,5 @@
 package fr.soat;
 
-import java.util.Comparator;
-
 /**
  * the "bencmarked" components
  */

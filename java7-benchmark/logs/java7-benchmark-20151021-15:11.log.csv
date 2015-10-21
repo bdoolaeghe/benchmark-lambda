@@ -1,0 +1,6 @@
+Benchmark;(nbPersons);Mode;Cnt;Score;Error;Units
+AnonymousBaselineBenchmark.anonymous_class;10;ss;2000;0,016;±;0,000;ms/op
+AnonymousBaselineBenchmark.anonymous_class;100;ss;2000;0,071;±;0,002;ms/op
+AnonymousBaselineBenchmark.anonymous_class;1000;ss;2000;0,495;±;0,005;ms/op
+AnonymousBaselineBenchmark.anonymous_class;10000;ss;2000;6,882;±;0,029;ms/op
+AnonymousBaselineBenchmark.anonymous_class;100000;ss;2000;90,475;±;0,261;ms/op

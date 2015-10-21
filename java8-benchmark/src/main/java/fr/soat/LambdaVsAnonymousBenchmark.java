@@ -17,8 +17,8 @@ import org.openjdk.jmh.infra.Blackhole;
 
 @BenchmarkMode(Mode.SingleShotTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
-@Warmup(iterations = 10)
-@Measurement(iterations = 100)
+@Warmup(iterations = 50)
+@Measurement(iterations = 200)
 @Fork(value = 10, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
 @Threads(1)
 public class LambdaVsAnonymousBenchmark {
