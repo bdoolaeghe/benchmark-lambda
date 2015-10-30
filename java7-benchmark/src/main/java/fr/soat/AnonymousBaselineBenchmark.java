@@ -14,12 +14,18 @@ import org.openjdk.jmh.annotations.Threads;
 import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 
-@BenchmarkMode(Mode.SingleShotTime)
+@BenchmarkMode(Mode.Throughput)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
-@Warmup(iterations = 50)
-@Measurement(iterations = 200)
-@Fork(value = 10, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
+@Warmup(iterations=100, time=100, timeUnit=TimeUnit.MILLISECONDS)
+@Measurement(iterations=100, time=100, timeUnit=TimeUnit.MILLISECONDS)
+@Fork(value = 1, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
 @Threads(1)
+//@BenchmarkMode(Mode.SingleShotTime)
+//@OutputTimeUnit(TimeUnit.MILLISECONDS)
+//@Warmup(iterations = 50)
+//@Measurement(iterations = 200)
+//@Fork(value = 10, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
+//@Threads(1)
 public class AnonymousBaselineBenchmark {
 
 	@Benchmark

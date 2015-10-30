@@ -13,7 +13,7 @@ import org.openjdk.jmh.annotations.State;
 public class PersonnesContainer extends Benchmarked {
 
     @Param({
-    	"10",
+//    	"10",
     	"100",
     	"1000",
     	"10000",
@@ -38,7 +38,7 @@ public class PersonnesContainer extends Benchmarked {
         unsortedPersonneArray = PersonneProvider.load("../data/personnes.txt", nbPersons);
     }
 
-    @Setup(Level.Iteration)
+    @Setup(Level.Invocation)
     public void reshuflePersonnesArray() throws IOException {
         // before each sort invocation,
         // restore unsorted array of personnes before sorting

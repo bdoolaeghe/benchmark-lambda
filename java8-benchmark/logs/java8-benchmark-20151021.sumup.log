@@ -1,0 +1,1802 @@
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,016 ±(99.9%) 0,001 ms/op [Average]
+  Statistics: (min, avg, max) = (0,009, 0,016, 0,059), stdev = 0,007
+  Confidence interval (99.9%): [0,015, 0,017]
+  Samples, N = 2000
+        mean =      0,016 ±(99.9%) 0,001 ms/op
+         min =      0,009 ms/op
+  p( 0,0000) =      0,009 ms/op
+  p(50,0000) =      0,013 ms/op
+  p(90,0000) =      0,020 ms/op
+  p(95,0000) =      0,028 ms/op
+  p(99,0000) =      0,051 ms/op
+  p(99,9000) =      0,058 ms/op
+  p(99,9900) =      0,059 ms/op
+  p(99,9990) =      0,059 ms/op
+  p(99,9999) =      0,059 ms/op
+         max =      0,059 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,074 ±(99.9%) 0,002 ms/op [Average]
+  Statistics: (min, avg, max) = (0,035, 0,074, 0,243), stdev = 0,028
+  Confidence interval (99.9%): [0,072, 0,076]
+  Samples, N = 2000
+        mean =      0,074 ±(99.9%) 0,002 ms/op
+         min =      0,035 ms/op
+  p( 0,0000) =      0,035 ms/op
+  p(50,0000) =      0,063 ms/op
+  p(90,0000) =      0,104 ms/op
+  p(95,0000) =      0,121 ms/op
+  p(99,0000) =      0,204 ms/op
+  p(99,9000) =      0,238 ms/op
+  p(99,9900) =      0,243 ms/op
+  p(99,9990) =      0,243 ms/op
+  p(99,9999) =      0,243 ms/op
+         max =      0,243 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,493 ±(99.9%) 0,006 ms/op [Average]
+  Statistics: (min, avg, max) = (0,244, 0,493, 0,972), stdev = 0,078
+  Confidence interval (99.9%): [0,487, 0,499]
+  Samples, N = 2000
+        mean =      0,493 ±(99.9%) 0,006 ms/op
+         min =      0,244 ms/op
+  p( 0,0000) =      0,244 ms/op
+  p(50,0000) =      0,499 ms/op
+  p(90,0000) =      0,551 ms/op
+  p(95,0000) =      0,591 ms/op
+  p(99,0000) =      0,758 ms/op
+  p(99,9000) =      0,946 ms/op
+  p(99,9900) =      0,972 ms/op
+  p(99,9990) =      0,972 ms/op
+  p(99,9999) =      0,972 ms/op
+         max =      0,972 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 6,876 ±(99.9%) 0,028 ms/op [Average]
+  Statistics: (min, avg, max) = (3,363, 6,876, 8,021), stdev = 0,374
+  Confidence interval (99.9%): [6,848, 6,903]
+  Samples, N = 2000
+        mean =      6,876 ±(99.9%) 0,028 ms/op
+         min =      3,363 ms/op
+  p( 0,0000) =      3,363 ms/op
+  p(50,0000) =      6,954 ms/op
+  p(90,0000) =      7,171 ms/op
+  p(95,0000) =      7,218 ms/op
+  p(99,0000) =      7,312 ms/op
+  p(99,9000) =      7,687 ms/op
+  p(99,9900) =      8,021 ms/op
+  p(99,9990) =      8,021 ms/op
+  p(99,9999) =      8,021 ms/op
+         max =      8,021 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.anonymous_class
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 88,283 ±(99.9%) 0,224 ms/op [Average]
+  Statistics: (min, avg, max) = (56,946, 88,283, 99,049), stdev = 3,038
+  Confidence interval (99.9%): [88,059, 88,507]
+  Samples, N = 2000
+        mean =     88,283 ±(99.9%) 0,224 ms/op
+         min =     56,946 ms/op
+  p( 0,0000) =     56,946 ms/op
+  p(50,0000) =     88,802 ms/op
+  p(90,0000) =     89,947 ms/op
+  p(95,0000) =     90,260 ms/op
+  p(99,0000) =     91,072 ms/op
+  p(99,9000) =     97,860 ms/op
+  p(99,9900) =     99,049 ms/op
+  p(99,9990) =     99,049 ms/op
+  p(99,9999) =     99,049 ms/op
+         max =     99,049 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.lambda
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,017 ±(99.9%) 0,001 ms/op [Average]
+  Statistics: (min, avg, max) = (0,010, 0,017, 0,071), stdev = 0,008
+  Confidence interval (99.9%): [0,017, 0,018]
+  Samples, N = 2000
+        mean =      0,017 ±(99.9%) 0,001 ms/op
+         min =      0,010 ms/op
+  p( 0,0000) =      0,010 ms/op
+  p(50,0000) =      0,014 ms/op
+  p(90,0000) =      0,022 ms/op
+  p(95,0000) =      0,030 ms/op
+  p(99,0000) =      0,053 ms/op
+  p(99,9000) =      0,066 ms/op
+  p(99,9900) =      0,071 ms/op
+  p(99,9990) =      0,071 ms/op
+  p(99,9999) =      0,071 ms/op
+         max =      0,071 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.lambda
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,074 ±(99.9%) 0,002 ms/op [Average]
+  Statistics: (min, avg, max) = (0,036, 0,074, 0,255), stdev = 0,027
+  Confidence interval (99.9%): [0,072, 0,076]
+  Samples, N = 2000
+        mean =      0,074 ±(99.9%) 0,002 ms/op
+         min =      0,036 ms/op
+  p( 0,0000) =      0,036 ms/op
+  p(50,0000) =      0,064 ms/op
+  p(90,0000) =      0,100 ms/op
+  p(95,0000) =      0,119 ms/op
+  p(99,0000) =      0,196 ms/op
+  p(99,9000) =      0,232 ms/op
+  p(99,9900) =      0,255 ms/op
+  p(99,9990) =      0,255 ms/op
+  p(99,9999) =      0,255 ms/op
+         max =      0,255 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.lambda
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,515 ±(99.9%) 0,005 ms/op [Average]
+  Statistics: (min, avg, max) = (0,263, 0,515, 0,966), stdev = 0,063
+  Confidence interval (99.9%): [0,511, 0,520]
+  Samples, N = 2000
+        mean =      0,515 ±(99.9%) 0,005 ms/op
+         min =      0,263 ms/op
+  p( 0,0000) =      0,263 ms/op
+  p(50,0000) =      0,510 ms/op
+  p(90,0000) =      0,557 ms/op
+  p(95,0000) =      0,601 ms/op
+  p(99,0000) =      0,797 ms/op
+  p(99,9000) =      0,965 ms/op
+  p(99,9900) =      0,966 ms/op
+  p(99,9990) =      0,966 ms/op
+  p(99,9999) =      0,966 ms/op
+         max =      0,966 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.lambda
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 6,816 ±(99.9%) 0,028 ms/op [Average]
+  Statistics: (min, avg, max) = (3,409, 6,816, 7,611), stdev = 0,379
+  Confidence interval (99.9%): [6,788, 6,844]
+  Samples, N = 2000
+        mean =      6,816 ±(99.9%) 0,028 ms/op
+         min =      3,409 ms/op
+  p( 0,0000) =      3,409 ms/op
+  p(50,0000) =      6,909 ms/op
+  p(90,0000) =      7,104 ms/op
+  p(95,0000) =      7,162 ms/op
+  p(99,0000) =      7,263 ms/op
+  p(99,9000) =      7,439 ms/op
+  p(99,9900) =      7,611 ms/op
+  p(99,9990) =      7,611 ms/op
+  p(99,9999) =      7,611 ms/op
+         max =      7,611 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.lambda
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 88,369 ±(99.9%) 0,196 ms/op [Average]
+  Statistics: (min, avg, max) = (60,676, 88,369, 99,070), stdev = 2,660
+  Confidence interval (99.9%): [88,173, 88,565]
+  Samples, N = 2000
+        mean =     88,369 ±(99.9%) 0,196 ms/op
+         min =     60,676 ms/op
+  p( 0,0000) =     60,676 ms/op
+  p(50,0000) =     88,816 ms/op
+  p(90,0000) =     90,066 ms/op
+  p(95,0000) =     90,434 ms/op
+  p(99,0000) =     91,273 ms/op
+  p(99,9000) =     98,561 ms/op
+  p(99,9900) =     99,070 ms/op
+  p(99,9990) =     99,070 ms/op
+  p(99,9999) =     99,070 ms/op
+         max =     99,070 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.method_reference
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,028 ±(99.9%) 0,001 ms/op [Average]
+  Statistics: (min, avg, max) = (0,017, 0,028, 0,083), stdev = 0,009
+  Confidence interval (99.9%): [0,027, 0,029]
+  Samples, N = 2000
+        mean =      0,028 ±(99.9%) 0,001 ms/op
+         min =      0,017 ms/op
+  p( 0,0000) =      0,017 ms/op
+  p(50,0000) =      0,025 ms/op
+  p(90,0000) =      0,038 ms/op
+  p(95,0000) =      0,048 ms/op
+  p(99,0000) =      0,067 ms/op
+  p(99,9000) =      0,082 ms/op
+  p(99,9900) =      0,083 ms/op
+  p(99,9990) =      0,083 ms/op
+  p(99,9999) =      0,083 ms/op
+         max =      0,083 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.method_reference
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,087 ±(99.9%) 0,002 ms/op [Average]
+  Statistics: (min, avg, max) = (0,047, 0,087, 0,255), stdev = 0,028
+  Confidence interval (99.9%): [0,085, 0,089]
+  Samples, N = 2000
+        mean =      0,087 ±(99.9%) 0,002 ms/op
+         min =      0,047 ms/op
+  p( 0,0000) =      0,047 ms/op
+  p(50,0000) =      0,077 ms/op
+  p(90,0000) =      0,116 ms/op
+  p(95,0000) =      0,131 ms/op
+  p(99,0000) =      0,221 ms/op
+  p(99,9000) =      0,247 ms/op
+  p(99,9900) =      0,255 ms/op
+  p(99,9990) =      0,255 ms/op
+  p(99,9999) =      0,255 ms/op
+         max =      0,255 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.method_reference
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,559 ±(99.9%) 0,005 ms/op [Average]
+  Statistics: (min, avg, max) = (0,292, 0,559, 1,014), stdev = 0,066
+  Confidence interval (99.9%): [0,554, 0,564]
+  Samples, N = 2000
+        mean =      0,559 ±(99.9%) 0,005 ms/op
+         min =      0,292 ms/op
+  p( 0,0000) =      0,292 ms/op
+  p(50,0000) =      0,555 ms/op
+  p(90,0000) =      0,604 ms/op
+  p(95,0000) =      0,645 ms/op
+  p(99,0000) =      0,841 ms/op
+  p(99,9000) =      1,011 ms/op
+  p(99,9900) =      1,014 ms/op
+  p(99,9990) =      1,014 ms/op
+  p(99,9999) =      1,014 ms/op
+         max =      1,014 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.method_reference
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 7,304 ±(99.9%) 0,029 ms/op [Average]
+  Statistics: (min, avg, max) = (3,626, 7,304, 8,079), stdev = 0,398
+  Confidence interval (99.9%): [7,274, 7,333]
+  Samples, N = 2000
+        mean =      7,304 ±(99.9%) 0,029 ms/op
+         min =      3,626 ms/op
+  p( 0,0000) =      3,626 ms/op
+  p(50,0000) =      7,419 ms/op
+  p(90,0000) =      7,617 ms/op
+  p(95,0000) =      7,658 ms/op
+  p(99,0000) =      7,723 ms/op
+  p(99,9000) =      7,804 ms/op
+  p(99,9900) =      8,079 ms/op
+  p(99,9990) =      8,079 ms/op
+  p(99,9999) =      8,079 ms/op
+         max =      8,079 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.method_reference
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 94,074 ±(99.9%) 0,254 ms/op [Average]
+  Statistics: (min, avg, max) = (59,493, 94,074, 98,017), stdev = 3,446
+  Confidence interval (99.9%): [93,820, 94,328]
+  Samples, N = 2000
+        mean =     94,074 ±(99.9%) 0,254 ms/op
+         min =     59,493 ms/op
+  p( 0,0000) =     59,493 ms/op
+  p(50,0000) =     94,694 ms/op
+  p(90,0000) =     96,184 ms/op
+  p(95,0000) =     96,566 ms/op
+  p(99,0000) =     97,200 ms/op
+  p(99,9000) =     97,958 ms/op
+  p(99,9900) =     98,017 ms/op
+  p(99,9990) =     98,017 ms/op
+  p(99,9999) =     98,017 ms/op
+         max =     98,017 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,111 ±(99.9%) 0,008 ms/op [Average]
+  Statistics: (min, avg, max) = (0,061, 0,111, 2,791), stdev = 0,112
+  Confidence interval (99.9%): [0,103, 0,119]
+  Samples, N = 2000
+        mean =      0,111 ±(99.9%) 0,008 ms/op
+         min =      0,061 ms/op
+  p( 0,0000) =      0,061 ms/op
+  p(50,0000) =      0,092 ms/op
+  p(90,0000) =      0,122 ms/op
+  p(95,0000) =      0,174 ms/op
+  p(99,0000) =      0,467 ms/op
+  p(99,9000) =      2,387 ms/op
+  p(99,9900) =      2,791 ms/op
+  p(99,9990) =      2,791 ms/op
+  p(99,9999) =      2,791 ms/op
+         max =      2,791 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,180 ±(99.9%) 0,015 ms/op [Average]
+  Statistics: (min, avg, max) = (0,093, 0,180, 4,204), stdev = 0,208
+  Confidence interval (99.9%): [0,165, 0,196]
+  Samples, N = 2000
+        mean =      0,180 ±(99.9%) 0,015 ms/op
+         min =      0,093 ms/op
+  p( 0,0000) =      0,093 ms/op
+  p(50,0000) =      0,149 ms/op
+  p(90,0000) =      0,195 ms/op
+  p(95,0000) =      0,250 ms/op
+  p(99,0000) =      1,074 ms/op
+  p(99,9000) =      3,685 ms/op
+  p(99,9900) =      4,204 ms/op
+  p(99,9990) =      4,204 ms/op
+  p(99,9999) =      4,204 ms/op
+         max =      4,204 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,601 ±(99.9%) 0,023 ms/op [Average]
+  Statistics: (min, avg, max) = (0,302, 0,601, 11,873), stdev = 0,313
+  Confidence interval (99.9%): [0,578, 0,624]
+  Samples, N = 2000
+        mean =      0,601 ±(99.9%) 0,023 ms/op
+         min =      0,302 ms/op
+  p( 0,0000) =      0,302 ms/op
+  p(50,0000) =      0,577 ms/op
+  p(90,0000) =      0,634 ms/op
+  p(95,0000) =      0,716 ms/op
+  p(99,0000) =      0,974 ms/op
+  p(99,9000) =      4,380 ms/op
+  p(99,9900) =     11,873 ms/op
+  p(99,9990) =     11,873 ms/op
+  p(99,9999) =     11,873 ms/op
+         max =     11,873 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 3,498 ±(99.9%) 0,040 ms/op [Average]
+  Statistics: (min, avg, max) = (1,372, 3,498, 5,808), stdev = 0,543
+  Confidence interval (99.9%): [3,458, 3,538]
+  Samples, N = 2000
+        mean =      3,498 ±(99.9%) 0,040 ms/op
+         min =      1,372 ms/op
+  p( 0,0000) =      1,372 ms/op
+  p(50,0000) =      3,619 ms/op
+  p(90,0000) =      4,041 ms/op
+  p(95,0000) =      4,114 ms/op
+  p(99,0000) =      4,767 ms/op
+  p(99,9000) =      5,789 ms/op
+  p(99,9900) =      5,808 ms/op
+  p(99,9990) =      5,808 ms/op
+  p(99,9999) =      5,808 ms/op
+         max =      5,808 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 36,387 ±(99.9%) 0,277 ms/op [Average]
+  Statistics: (min, avg, max) = (21,714, 36,387, 46,529), stdev = 3,753
+  Confidence interval (99.9%): [36,111, 36,664]
+  Samples, N = 2000
+        mean =     36,387 ±(99.9%) 0,277 ms/op
+         min =     21,714 ms/op
+  p( 0,0000) =     21,714 ms/op
+  p(50,0000) =     37,556 ms/op
+  p(90,0000) =     39,464 ms/op
+  p(95,0000) =     39,889 ms/op
+  p(99,0000) =     40,998 ms/op
+  p(99,9000) =     45,610 ms/op
+  p(99,9900) =     46,529 ms/op
+  p(99,9990) =     46,529 ms/op
+  p(99,9999) =     46,529 ms/op
+         max =     46,529 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_lambda
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,112 ±(99.9%) 0,009 ms/op [Average]
+  Statistics: (min, avg, max) = (0,059, 0,112, 2,453), stdev = 0,117
+  Confidence interval (99.9%): [0,103, 0,120]
+  Samples, N = 2000
+        mean =      0,112 ±(99.9%) 0,009 ms/op
+         min =      0,059 ms/op
+  p( 0,0000) =      0,059 ms/op
+  p(50,0000) =      0,091 ms/op
+  p(90,0000) =      0,122 ms/op
+  p(95,0000) =      0,178 ms/op
+  p(99,0000) =      0,502 ms/op
+  p(99,9000) =      1,958 ms/op
+  p(99,9900) =      2,453 ms/op
+  p(99,9990) =      2,453 ms/op
+  p(99,9999) =      2,453 ms/op
+         max =      2,453 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_lambda
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,178 ±(99.9%) 0,012 ms/op [Average]
+  Statistics: (min, avg, max) = (0,087, 0,178, 4,015), stdev = 0,161
+  Confidence interval (99.9%): [0,166, 0,190]
+  Samples, N = 2000
+        mean =      0,178 ±(99.9%) 0,012 ms/op
+         min =      0,087 ms/op
+  p( 0,0000) =      0,087 ms/op
+  p(50,0000) =      0,151 ms/op
+  p(90,0000) =      0,207 ms/op
+  p(95,0000) =      0,274 ms/op
+  p(99,0000) =      0,607 ms/op
+  p(99,9000) =      2,777 ms/op
+  p(99,9900) =      4,015 ms/op
+  p(99,9990) =      4,015 ms/op
+  p(99,9999) =      4,015 ms/op
+         max =      4,015 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_lambda
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,601 ±(99.9%) 0,022 ms/op [Average]
+  Statistics: (min, avg, max) = (0,315, 0,601, 9,501), stdev = 0,303
+  Confidence interval (99.9%): [0,579, 0,624]
+  Samples, N = 2000
+        mean =      0,601 ±(99.9%) 0,022 ms/op
+         min =      0,315 ms/op
+  p( 0,0000) =      0,315 ms/op
+  p(50,0000) =      0,579 ms/op
+  p(90,0000) =      0,631 ms/op
+  p(95,0000) =      0,691 ms/op
+  p(99,0000) =      0,946 ms/op
+  p(99,9000) =      6,365 ms/op
+  p(99,9900) =      9,501 ms/op
+  p(99,9990) =      9,501 ms/op
+  p(99,9999) =      9,501 ms/op
+         max =      9,501 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_lambda
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 3,487 ±(99.9%) 0,042 ms/op [Average]
+  Statistics: (min, avg, max) = (1,379, 3,487, 7,733), stdev = 0,575
+  Confidence interval (99.9%): [3,444, 3,529]
+  Samples, N = 2000
+        mean =      3,487 ±(99.9%) 0,042 ms/op
+         min =      1,379 ms/op
+  p( 0,0000) =      1,379 ms/op
+  p(50,0000) =      3,609 ms/op
+  p(90,0000) =      4,057 ms/op
+  p(95,0000) =      4,135 ms/op
+  p(99,0000) =      4,806 ms/op
+  p(99,9000) =      6,158 ms/op
+  p(99,9900) =      7,733 ms/op
+  p(99,9990) =      7,733 ms/op
+  p(99,9999) =      7,733 ms/op
+         max =      7,733 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_lambda
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 36,317 ±(99.9%) 0,304 ms/op [Average]
+  Statistics: (min, avg, max) = (21,150, 36,317, 67,125), stdev = 4,124
+  Confidence interval (99.9%): [36,013, 36,621]
+  Samples, N = 2000
+        mean =     36,317 ±(99.9%) 0,304 ms/op
+         min =     21,150 ms/op
+  p( 0,0000) =     21,150 ms/op
+  p(50,0000) =     37,637 ms/op
+  p(90,0000) =     39,661 ms/op
+  p(95,0000) =     40,099 ms/op
+  p(99,0000) =     41,310 ms/op
+  p(99,9000) =     49,027 ms/op
+  p(99,9900) =     67,125 ms/op
+  p(99,9990) =     67,125 ms/op
+  p(99,9999) =     67,125 ms/op
+         max =     67,125 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_method_ref
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,125 ±(99.9%) 0,011 ms/op [Average]
+  Statistics: (min, avg, max) = (0,066, 0,125, 4,187), stdev = 0,151
+  Confidence interval (99.9%): [0,114, 0,136]
+  Samples, N = 2000
+        mean =      0,125 ±(99.9%) 0,011 ms/op
+         min =      0,066 ms/op
+  p( 0,0000) =      0,066 ms/op
+  p(50,0000) =      0,102 ms/op
+  p(90,0000) =      0,139 ms/op
+  p(95,0000) =      0,219 ms/op
+  p(99,0000) =      0,470 ms/op
+  p(99,9000) =      3,368 ms/op
+  p(99,9900) =      4,187 ms/op
+  p(99,9990) =      4,187 ms/op
+  p(99,9999) =      4,187 ms/op
+         max =      4,187 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_method_ref
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,196 ±(99.9%) 0,020 ms/op [Average]
+  Statistics: (min, avg, max) = (0,092, 0,196, 7,186), stdev = 0,273
+  Confidence interval (99.9%): [0,176, 0,216]
+  Samples, N = 2000
+        mean =      0,196 ±(99.9%) 0,020 ms/op
+         min =      0,092 ms/op
+  p( 0,0000) =      0,092 ms/op
+  p(50,0000) =      0,161 ms/op
+  p(90,0000) =      0,223 ms/op
+  p(95,0000) =      0,279 ms/op
+  p(99,0000) =      0,601 ms/op
+  p(99,9000) =      4,358 ms/op
+  p(99,9900) =      7,186 ms/op
+  p(99,9990) =      7,186 ms/op
+  p(99,9999) =      7,186 ms/op
+         max =      7,186 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_method_ref
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,638 ±(99.9%) 0,017 ms/op [Average]
+  Statistics: (min, avg, max) = (0,335, 0,638, 6,682), stdev = 0,237
+  Confidence interval (99.9%): [0,621, 0,656]
+  Samples, N = 2000
+        mean =      0,638 ±(99.9%) 0,017 ms/op
+         min =      0,335 ms/op
+  p( 0,0000) =      0,335 ms/op
+  p(50,0000) =      0,619 ms/op
+  p(90,0000) =      0,678 ms/op
+  p(95,0000) =      0,735 ms/op
+  p(99,0000) =      1,001 ms/op
+  p(99,9000) =      4,825 ms/op
+  p(99,9900) =      6,682 ms/op
+  p(99,9990) =      6,682 ms/op
+  p(99,9999) =      6,682 ms/op
+         max =      6,682 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_method_ref
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 3,701 ±(99.9%) 0,044 ms/op [Average]
+  Statistics: (min, avg, max) = (1,547, 3,701, 6,778), stdev = 0,598
+  Confidence interval (99.9%): [3,656, 3,745]
+  Samples, N = 2000
+        mean =      3,701 ±(99.9%) 0,044 ms/op
+         min =      1,547 ms/op
+  p( 0,0000) =      1,547 ms/op
+  p(50,0000) =      3,839 ms/op
+  p(90,0000) =      4,308 ms/op
+  p(95,0000) =      4,400 ms/op
+  p(99,0000) =      4,912 ms/op
+  p(99,9000) =      6,016 ms/op
+  p(99,9900) =      6,778 ms/op
+  p(99,9990) =      6,778 ms/op
+  p(99,9999) =      6,778 ms/op
+         max =      6,778 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.parallel_stream_method_ref
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 38,386 ±(99.9%) 0,319 ms/op [Average]
+  Statistics: (min, avg, max) = (22,614, 38,386, 73,568), stdev = 4,326
+  Confidence interval (99.9%): [38,067, 38,705]
+  Samples, N = 2000
+        mean =     38,386 ±(99.9%) 0,319 ms/op
+         min =     22,614 ms/op
+  p( 0,0000) =     22,614 ms/op
+  p(50,0000) =     39,784 ms/op
+  p(90,0000) =     41,810 ms/op
+  p(95,0000) =     42,203 ms/op
+  p(99,0000) =     43,396 ms/op
+  p(99,9000) =     71,924 ms/op
+  p(99,9900) =     73,568 ms/op
+  p(99,9990) =     73,568 ms/op
+  p(99,9999) =     73,568 ms/op
+         max =     73,568 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_anonymous_class
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,054 ±(99.9%) 0,001 ms/op [Average]
+  Statistics: (min, avg, max) = (0,036, 0,054, 0,308), stdev = 0,014
+  Confidence interval (99.9%): [0,053, 0,055]
+  Samples, N = 2000
+        mean =      0,054 ±(99.9%) 0,001 ms/op
+         min =      0,036 ms/op
+  p( 0,0000) =      0,036 ms/op
+  p(50,0000) =      0,051 ms/op
+  p(90,0000) =      0,066 ms/op
+  p(95,0000) =      0,079 ms/op
+  p(99,0000) =      0,096 ms/op
+  p(99,9000) =      0,299 ms/op
+  p(99,9900) =      0,308 ms/op
+  p(99,9990) =      0,308 ms/op
+  p(99,9999) =      0,308 ms/op
+         max =      0,308 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_anonymous_class
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,113 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,064, 0,113, 1,714), stdev = 0,051
+  Confidence interval (99.9%): [0,109, 0,117]
+  Samples, N = 2000
+        mean =      0,113 ±(99.9%) 0,004 ms/op
+         min =      0,064 ms/op
+  p( 0,0000) =      0,064 ms/op
+  p(50,0000) =      0,101 ms/op
+  p(90,0000) =      0,147 ms/op
+  p(95,0000) =      0,161 ms/op
+  p(99,0000) =      0,202 ms/op
+  p(99,9000) =      1,255 ms/op
+  p(99,9900) =      1,714 ms/op
+  p(99,9990) =      1,714 ms/op
+  p(99,9999) =      1,714 ms/op
+         max =      1,714 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_anonymous_class
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,546 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,292, 0,546, 1,664), stdev = 0,061
+  Confidence interval (99.9%): [0,541, 0,550]
+  Samples, N = 2000
+        mean =      0,546 ±(99.9%) 0,004 ms/op
+         min =      0,292 ms/op
+  p( 0,0000) =      0,292 ms/op
+  p(50,0000) =      0,539 ms/op
+  p(90,0000) =      0,601 ms/op
+  p(95,0000) =      0,665 ms/op
+  p(99,0000) =      0,732 ms/op
+  p(99,9000) =      0,824 ms/op
+  p(99,9900) =      1,664 ms/op
+  p(99,9990) =      1,664 ms/op
+  p(99,9999) =      1,664 ms/op
+         max =      1,664 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_anonymous_class
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 6,762 ±(99.9%) 0,025 ms/op [Average]
+  Statistics: (min, avg, max) = (3,350, 6,762, 7,526), stdev = 0,335
+  Confidence interval (99.9%): [6,738, 6,787]
+  Samples, N = 2000
+        mean =      6,762 ±(99.9%) 0,025 ms/op
+         min =      3,350 ms/op
+  p( 0,0000) =      3,350 ms/op
+  p(50,0000) =      6,865 ms/op
+  p(90,0000) =      7,024 ms/op
+  p(95,0000) =      7,070 ms/op
+  p(99,0000) =      7,145 ms/op
+  p(99,9000) =      7,470 ms/op
+  p(99,9900) =      7,526 ms/op
+  p(99,9990) =      7,526 ms/op
+  p(99,9999) =      7,526 ms/op
+         max =      7,526 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_anonymous_class
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 88,118 ±(99.9%) 0,216 ms/op [Average]
+  Statistics: (min, avg, max) = (53,297, 88,118, 93,451), stdev = 2,929
+  Confidence interval (99.9%): [87,902, 88,334]
+  Samples, N = 2000
+        mean =     88,118 ±(99.9%) 0,216 ms/op
+         min =     53,297 ms/op
+  p( 0,0000) =     53,297 ms/op
+  p(50,0000) =     88,746 ms/op
+  p(90,0000) =     89,784 ms/op
+  p(95,0000) =     89,970 ms/op
+  p(99,0000) =     90,436 ms/op
+  p(99,9000) =     92,172 ms/op
+  p(99,9900) =     93,451 ms/op
+  p(99,9990) =     93,451 ms/op
+  p(99,9999) =     93,451 ms/op
+         max =     93,451 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_lambda
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,057 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,035, 0,057, 1,113), stdev = 0,048
+  Confidence interval (99.9%): [0,053, 0,060]
+  Samples, N = 2000
+        mean =      0,057 ±(99.9%) 0,004 ms/op
+         min =      0,035 ms/op
+  p( 0,0000) =      0,035 ms/op
+  p(50,0000) =      0,051 ms/op
+  p(90,0000) =      0,068 ms/op
+  p(95,0000) =      0,080 ms/op
+  p(99,0000) =      0,103 ms/op
+  p(99,9000) =      1,109 ms/op
+  p(99,9900) =      1,113 ms/op
+  p(99,9990) =      1,113 ms/op
+  p(99,9999) =      1,113 ms/op
+         max =      1,113 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_lambda
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,118 ±(99.9%) 0,005 ms/op [Average]
+  Statistics: (min, avg, max) = (0,065, 0,118, 1,596), stdev = 0,065
+  Confidence interval (99.9%): [0,113, 0,123]
+  Samples, N = 2000
+        mean =      0,118 ±(99.9%) 0,005 ms/op
+         min =      0,065 ms/op
+  p( 0,0000) =      0,065 ms/op
+  p(50,0000) =      0,104 ms/op
+  p(90,0000) =      0,149 ms/op
+  p(95,0000) =      0,166 ms/op
+  p(99,0000) =      0,215 ms/op
+  p(99,9000) =      1,550 ms/op
+  p(99,9900) =      1,596 ms/op
+  p(99,9990) =      1,596 ms/op
+  p(99,9999) =      1,596 ms/op
+         max =      1,596 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_lambda
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,548 ±(99.9%) 0,005 ms/op [Average]
+  Statistics: (min, avg, max) = (0,268, 0,548, 1,527), stdev = 0,062
+  Confidence interval (99.9%): [0,543, 0,552]
+  Samples, N = 2000
+        mean =      0,548 ±(99.9%) 0,005 ms/op
+         min =      0,268 ms/op
+  p( 0,0000) =      0,268 ms/op
+  p(50,0000) =      0,540 ms/op
+  p(90,0000) =      0,605 ms/op
+  p(95,0000) =      0,653 ms/op
+  p(99,0000) =      0,744 ms/op
+  p(99,9000) =      1,214 ms/op
+  p(99,9900) =      1,527 ms/op
+  p(99,9990) =      1,527 ms/op
+  p(99,9999) =      1,527 ms/op
+         max =      1,527 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_lambda
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 6,759 ±(99.9%) 0,028 ms/op [Average]
+  Statistics: (min, avg, max) = (3,223, 6,759, 7,747), stdev = 0,386
+  Confidence interval (99.9%): [6,731, 6,787]
+  Samples, N = 2000
+        mean =      6,759 ±(99.9%) 0,028 ms/op
+         min =      3,223 ms/op
+  p( 0,0000) =      3,223 ms/op
+  p(50,0000) =      6,868 ms/op
+  p(90,0000) =      7,035 ms/op
+  p(95,0000) =      7,082 ms/op
+  p(99,0000) =      7,160 ms/op
+  p(99,9000) =      7,219 ms/op
+  p(99,9900) =      7,747 ms/op
+  p(99,9990) =      7,747 ms/op
+  p(99,9999) =      7,747 ms/op
+         max =      7,747 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_lambda
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 88,553 ±(99.9%) 0,235 ms/op [Average]
+  Statistics: (min, avg, max) = (54,067, 88,553, 96,696), stdev = 3,194
+  Confidence interval (99.9%): [88,318, 88,789]
+  Samples, N = 2000
+        mean =     88,553 ±(99.9%) 0,235 ms/op
+         min =     54,067 ms/op
+  p( 0,0000) =     54,067 ms/op
+  p(50,0000) =     89,151 ms/op
+  p(90,0000) =     90,465 ms/op
+  p(95,0000) =     90,844 ms/op
+  p(99,0000) =     91,351 ms/op
+  p(99,9000) =     94,450 ms/op
+  p(99,9900) =     96,696 ms/op
+  p(99,9990) =     96,696 ms/op
+  p(99,9999) =     96,696 ms/op
+         max =     96,696 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_method_ref
+# Parameters: (nbPersons = 10)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,068 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,045, 0,068, 1,588), stdev = 0,051
+  Confidence interval (99.9%): [0,064, 0,072]
+  Samples, N = 2000
+        mean =      0,068 ±(99.9%) 0,004 ms/op
+         min =      0,045 ms/op
+  p( 0,0000) =      0,045 ms/op
+  p(50,0000) =      0,061 ms/op
+  p(90,0000) =      0,085 ms/op
+  p(95,0000) =      0,095 ms/op
+  p(99,0000) =      0,131 ms/op
+  p(99,9000) =      1,192 ms/op
+  p(99,9900) =      1,588 ms/op
+  p(99,9990) =      1,588 ms/op
+  p(99,9999) =      1,588 ms/op
+         max =      1,588 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_method_ref
+# Parameters: (nbPersons = 100)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,128 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,070, 0,128, 1,364), stdev = 0,057
+  Confidence interval (99.9%): [0,124, 0,133]
+  Samples, N = 2000
+        mean =      0,128 ±(99.9%) 0,004 ms/op
+         min =      0,070 ms/op
+  p( 0,0000) =      0,070 ms/op
+  p(50,0000) =      0,114 ms/op
+  p(90,0000) =      0,160 ms/op
+  p(95,0000) =      0,180 ms/op
+  p(99,0000) =      0,230 ms/op
+  p(99,9000) =      1,230 ms/op
+  p(99,9900) =      1,364 ms/op
+  p(99,9990) =      1,364 ms/op
+  p(99,9999) =      1,364 ms/op
+         max =      1,364 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_method_ref
+# Parameters: (nbPersons = 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 0,591 ±(99.9%) 0,004 ms/op [Average]
+  Statistics: (min, avg, max) = (0,311, 0,591, 1,112), stdev = 0,059
+  Confidence interval (99.9%): [0,586, 0,595]
+  Samples, N = 2000
+        mean =      0,591 ±(99.9%) 0,004 ms/op
+         min =      0,311 ms/op
+  p( 0,0000) =      0,311 ms/op
+  p(50,0000) =      0,583 ms/op
+  p(90,0000) =      0,653 ms/op
+  p(95,0000) =      0,713 ms/op
+  p(99,0000) =      0,780 ms/op
+  p(99,9000) =      0,882 ms/op
+  p(99,9900) =      1,112 ms/op
+  p(99,9990) =      1,112 ms/op
+  p(99,9999) =      1,112 ms/op
+         max =      1,112 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_method_ref
+# Parameters: (nbPersons = 10000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 7,136 ±(99.9%) 0,030 ms/op [Average]
+  Statistics: (min, avg, max) = (3,488, 7,136, 8,756), stdev = 0,410
+  Confidence interval (99.9%): [7,106, 7,166]
+  Samples, N = 2000
+        mean =      7,136 ±(99.9%) 0,030 ms/op
+         min =      3,488 ms/op
+  p( 0,0000) =      3,488 ms/op
+  p(50,0000) =      7,248 ms/op
+  p(90,0000) =      7,449 ms/op
+  p(95,0000) =      7,488 ms/op
+  p(99,0000) =      7,598 ms/op
+  p(99,9000) =      8,297 ms/op
+  p(99,9900) =      8,756 ms/op
+  p(99,9990) =      8,756 ms/op
+  p(99,9999) =      8,756 ms/op
+         max =      8,756 ms/op
+
+
+# JMH 1.5.2 (released 257 days ago, please consider updating!)
+# VM invoker: /home/my/dev/java/jdk1.8.0_51/jre/bin/java
+# VM options: -server -Xmx2g -XX:+TieredCompilation
+# Measurement: 200 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: fr.soat.LambdaVsAnonymousBenchmark.stream_method_ref
+# Parameters: (nbPersons = 100000)
+
+
+
+
+
+
+
+
+
+
+
+
+Result: 93,548 ±(99.9%) 0,232 ms/op [Average]
+  Statistics: (min, avg, max) = (56,972, 93,548, 101,077), stdev = 3,146
+  Confidence interval (99.9%): [93,316, 93,780]
+  Samples, N = 2000
+        mean =     93,548 ±(99.9%) 0,232 ms/op
+         min =     56,972 ms/op
+  p( 0,0000) =     56,972 ms/op
+  p(50,0000) =     94,328 ms/op
+  p(90,0000) =     95,477 ms/op
+  p(95,0000) =     95,758 ms/op
+  p(99,0000) =     96,245 ms/op
+  p(99,9000) =    100,580 ms/op
+  p(99,9900) =    101,077 ms/op
+  p(99,9990) =    101,077 ms/op
+  p(99,9999) =    101,077 ms/op
+         max =    101,077 ms/op
+
+
+
+Benchmark                                                   (nbPersons)  Mode   Cnt   Score   Error  Units
+LambdaVsAnonymousBenchmark.anonymous_class                           10    ss  2000   0,016 ± 0,001  ms/op
+LambdaVsAnonymousBenchmark.anonymous_class                          100    ss  2000   0,074 ± 0,002  ms/op
+LambdaVsAnonymousBenchmark.anonymous_class                         1000    ss  2000   0,493 ± 0,006  ms/op
+LambdaVsAnonymousBenchmark.anonymous_class                        10000    ss  2000   6,876 ± 0,028  ms/op
+LambdaVsAnonymousBenchmark.anonymous_class                       100000    ss  2000  88,283 ± 0,224  ms/op
+LambdaVsAnonymousBenchmark.lambda                                    10    ss  2000   0,017 ± 0,001  ms/op
+LambdaVsAnonymousBenchmark.lambda                                   100    ss  2000   0,074 ± 0,002  ms/op
+LambdaVsAnonymousBenchmark.lambda                                  1000    ss  2000   0,515 ± 0,005  ms/op
+LambdaVsAnonymousBenchmark.lambda                                 10000    ss  2000   6,816 ± 0,028  ms/op
+LambdaVsAnonymousBenchmark.lambda                                100000    ss  2000  88,369 ± 0,196  ms/op
+LambdaVsAnonymousBenchmark.method_reference                          10    ss  2000   0,028 ± 0,001  ms/op
+LambdaVsAnonymousBenchmark.method_reference                         100    ss  2000   0,087 ± 0,002  ms/op
+LambdaVsAnonymousBenchmark.method_reference                        1000    ss  2000   0,559 ± 0,005  ms/op
+LambdaVsAnonymousBenchmark.method_reference                       10000    ss  2000   7,304 ± 0,029  ms/op
+LambdaVsAnonymousBenchmark.method_reference                      100000    ss  2000  94,074 ± 0,254  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class           10    ss  2000   0,111 ± 0,008  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class          100    ss  2000   0,180 ± 0,015  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class         1000    ss  2000   0,601 ± 0,023  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class        10000    ss  2000   3,498 ± 0,040  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_anonymous_class       100000    ss  2000  36,387 ± 0,277  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_lambda                    10    ss  2000   0,112 ± 0,009  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_lambda                   100    ss  2000   0,178 ± 0,012  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_lambda                  1000    ss  2000   0,601 ± 0,022  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_lambda                 10000    ss  2000   3,487 ± 0,042  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_lambda                100000    ss  2000  36,317 ± 0,304  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_method_ref                10    ss  2000   0,125 ± 0,011  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_method_ref               100    ss  2000   0,196 ± 0,020  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_method_ref              1000    ss  2000   0,638 ± 0,017  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_method_ref             10000    ss  2000   3,701 ± 0,044  ms/op
+LambdaVsAnonymousBenchmark.parallel_stream_method_ref            100000    ss  2000  38,386 ± 0,319  ms/op
+LambdaVsAnonymousBenchmark.stream_anonymous_class                    10    ss  2000   0,054 ± 0,001  ms/op
+LambdaVsAnonymousBenchmark.stream_anonymous_class                   100    ss  2000   0,113 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_anonymous_class                  1000    ss  2000   0,546 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_anonymous_class                 10000    ss  2000   6,762 ± 0,025  ms/op
+LambdaVsAnonymousBenchmark.stream_anonymous_class                100000    ss  2000  88,118 ± 0,216  ms/op
+LambdaVsAnonymousBenchmark.stream_lambda                             10    ss  2000   0,057 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_lambda                            100    ss  2000   0,118 ± 0,005  ms/op
+LambdaVsAnonymousBenchmark.stream_lambda                           1000    ss  2000   0,548 ± 0,005  ms/op
+LambdaVsAnonymousBenchmark.stream_lambda                          10000    ss  2000   6,759 ± 0,028  ms/op
+LambdaVsAnonymousBenchmark.stream_lambda                         100000    ss  2000  88,553 ± 0,235  ms/op
+LambdaVsAnonymousBenchmark.stream_method_ref                         10    ss  2000   0,068 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_method_ref                        100    ss  2000   0,128 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_method_ref                       1000    ss  2000   0,591 ± 0,004  ms/op
+LambdaVsAnonymousBenchmark.stream_method_ref                      10000    ss  2000   7,136 ± 0,030  ms/op
+LambdaVsAnonymousBenchmark.stream_method_ref                     100000    ss  2000  93,548 ± 0,232  ms/op
