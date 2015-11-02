@@ -15,7 +15,7 @@ import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 
 @BenchmarkMode(Mode.AverageTime)
-@OutputTimeUnit(TimeUnit.MILLISECONDS)
+@OutputTimeUnit(TimeUnit.MICROSECONDS)
 @Warmup(iterations=100, time=100, timeUnit=TimeUnit.MILLISECONDS)
 @Measurement(iterations=100, time=100, timeUnit=TimeUnit.MILLISECONDS)
 @Fork(value = 1, jvmArgsPrepend = { "-server", "-Xmx2g", "-XX:+TieredCompilation" })
