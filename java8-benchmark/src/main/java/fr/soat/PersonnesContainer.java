@@ -12,18 +12,34 @@ import org.openjdk.jmh.annotations.State;
 @State(Scope.Benchmark)
 public class PersonnesContainer extends Benchmarked {
 
-    @Param({
+	@Param({
     	"10",
     	"100",
+    	"500",
     	"1000",
+    	"5000",
     	"10000",
+    	"50000",
 //    	"100000",
 //    	"200000", 
 //    	"400000",
 //    	"800000",
 //    	"1000000"
-    	"100000"
+    	"100000", 
+    	"500000"    	
     	})
+//    @Param({
+//    	"10",
+//    	"100",
+//    	"1000",
+//    	"10000",
+////    	"100000",
+////    	"200000", 
+////    	"400000",
+////    	"800000",
+////    	"1000000"
+//    	"100000"
+//    	})
 	protected int nbPersons;
 
     // the array of peronne to sort during invokation work

@@ -15,14 +15,18 @@ public class PersonnesContainer extends Benchmarked {
     @Param({
     	"10",
     	"100",
+    	"500",
     	"1000",
+    	"5000",
     	"10000",
+    	"50000",
 //    	"100000",
 //    	"200000", 
 //    	"400000",
 //    	"800000",
 //    	"1000000"
-    	"100000"
+    	"100000", 
+    	"500000"    	
     	})
 	protected int nbPersons;
 
